@@ -1,0 +1,5 @@
+baseURL = "https://hugheylab.org/"
+languageCode = "en-us"
+title = "Hughey Lab"
+pluralizelisttitles = false
+theme = "liquorice"
