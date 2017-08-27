@@ -1,5 +1,5 @@
-baseURL = "https://hugheylab.gitlab.io/"
+baseURL = "https://hugheylab.org/"
 languageCode = "en-us"
 title = "Hughey Lab"
 pluralizelisttitles = false
-theme = "liquorice"
+theme = "kube"
