@@ -1,4 +1,4 @@
-baseURL = "https://hugheylab.org/"
+baseURL = "https://hugheylab.gitlab.io/"
 languageCode = "en-us"
 title = "Hughey Lab"
 pluralizelisttitles = false
