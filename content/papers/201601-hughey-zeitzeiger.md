@@ -1,13 +1,14 @@
 ---
 date: 2016-01-01
 slug: hughey-zeitzeiger
+image: 201601-hughey-zeitzeiger.png
 title: "ZeitZeiger: supervised learning for high-dimensional data from an oscillatory system"
 authors: Hughey JJ, Hastie T, Butte AJ
 journal: Nucleic Acids Res
 year: 2016
 short_ref: Hughey et al., Nucleic Acids Res 2016
-pdf: 2016_hughey_zeitzeiger.pdf
-supp: 2016_hughey_zeitzeiger_supp.zip
+pdf: 2016-hughey-zeitzeiger.pdf
+supp: 2016-hughey-zeitzeiger-supp.zip
 doi: 10.1093/nar/gkw030
 pmid: 26819407
 results: https://dx.doi.org/10.5061/dryad.hn8gp

@@ -1,13 +1,14 @@
 ---
 date: 2014-01-02
 slug: regot-high-sensitivity
+image: 201402-regot-high-sensitivity.png
 title: High-sensitivity measurements of multiple kinase activities in live single cells
 authors: Regot S, Hughey JJ, Bajar BT, Carrasco S, Covert MW
 journal: Cell
 year: 2014
 short_ref: Regot et al., Cell 2014
-pdf: 2014_regot_high-sensitivity.pdf
-supp: 2014_regot_high-sensitivity_supp.zip
+pdf: 2014-regot-high-sensitivity.pdf
+supp: 2014-regot-high-sensitivity-supp.zip
 doi: 10.1016/j.cell.2014.04.039
 pmid: 24949979
 software: https://github.com/CovertLab/ktr_model

@@ -1,13 +1,14 @@
 ---
 date: 2014-01-01
 slug: byrd-microfluidic
+image: 201401-byrd-microfluidic.png
 title: The microfluidic multi-trap nanophysiometer for hematologic cancer cell characterization reveals temporal sensitivity of the calcein-AM efflux assay
 authors: Byrd TF IV, Hoang LT, Kim EG, Pfister ME, Werner EM, Arndt SE, Chamberlain JW, Hughey JJ, Nguyen BA, Schneibel EJ, Wertz LL, Whitfield JS, Wikswo JP, Seale KT
 journal: Scientific Reports
 year: 2014
 short_ref: Byrd et al., Sci Rep 2014
-pdf: 2014_byrd_microfluidic.pdf
-supp: 2014_byrd_microfluidic_supp.pdf
+pdf: 2014-byrd-microfluidic.pdf
+supp: 2014-byrd-microfluidic-supp.pdf
 doi: 10.1038/srep05117
 pmid: 24873950
 member_ids: hugheyjj

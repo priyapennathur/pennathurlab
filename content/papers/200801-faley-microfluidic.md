@@ -1,12 +1,13 @@
 ---
 date: 2008-01-01
 slug: faley-microfluidic
+image: 200801-faley-microfluidic.png
 title: Microfluidic platform for real-time signaling analysis of multiple single T cells in parallel
 authors: Faley S, Seale K, Hughey J, Schaffer DK, VanCompernolle S, McKinney B, Baudenbacher F, Unutmaz D, Wikswo JP
 journal: Lab on a Chip
 year: 2008
 short_ref: Faley et al., Lab Chip 2008
-pdf: 2008_faley_microfluidic.pdf
+pdf: 2008-faley-microfluidic.pdf
 doi: 10.1039/b719799c
 pmid: 18813394
 member_ids: hugheyjj

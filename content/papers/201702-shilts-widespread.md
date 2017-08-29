@@ -1,6 +1,7 @@
 ---
 date: 2017-04-01
 slug: shilts-widespread
+image: 201702-shilts-widespread.png
 title: "Widespread dysregulation of the circadian clock in human cancer"
 authors: Shilts J, Chen G, Hughey JJ
 journal: bioRxiv
