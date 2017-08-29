@@ -3,7 +3,7 @@ title: Jarrod Shilts
 position: Undergraduate Researcher
 email: jarrod.shilts@vanderbilt.edu
 github: JShilts
-image: /static/people/jarrod-shilts.jpg
+image: 'images/people/jarrod-shilts.jpg'
 member_id: shiltsj
 status: alum
 ---

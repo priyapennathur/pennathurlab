@@ -5,7 +5,7 @@ email: jakejhughey@gmail.com
 twitter: jakejhughey
 github: jakejh
 scholar: 4B-OkFkAAAAJ
-image: /static/people/jake-hughey.jpg
+image: 'images/people/jake-hughey.jpg'
 member_id: hugheyjj
 ---
 

@@ -10,9 +10,7 @@
 					</div>
 					<p>
 					<div class="smallhead">
-						{{if .Params.author }}
-						by <span class="off">{{ .Params.author }}</span>
-						{{ end }}
+						{{ .Date.Format "2 Jan 2006" }}
 					</div>
 				</div>
 			</div>
