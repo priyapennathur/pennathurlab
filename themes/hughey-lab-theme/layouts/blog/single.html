@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="blog-post">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="media">
+				<div class="media-body">
+					<div class="title media-heading">
+						<h1>{{ .Title }}</h1>
+					</div>
+					<p>
+					<div class="smallhead">
+						{{ .Date.Format "2 Jan 2006" }}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+
+	<div class="bigspacer"></div>
+
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			{{if .Params.image }}
+			<img class="offset" src="{{ .Params.image }}">
+			{{end }}
+			<div class="post">
+				{{ .Content }}
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+
+	<div class="bigspacer"></div>
+	<div class="spacer"></div>
+
+</div>
+{{ end }}

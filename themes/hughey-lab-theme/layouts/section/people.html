@@ -1,0 +1,23 @@
+{{ define "main" }}
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<div class="row">
+				{{range .Data.Pages }}
+				<div class="col-md-6 memberbox">
+					<div class="media">
+						<a class="pull-left" href="{{ .Permalink }}">
+							<img width=170 class="media-object" src="{{.Site.BaseURL}}{{ .Params.image }}"/>
+						</a>
+						<div class="media-body">
+							<div class="head media-heading"><a href="{{ .Permalink }}" class="off">{{ .Params.title }}</a></div>
+							<p class="note">{{ .Params.position }}</p>
+						</div>
+					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
+				</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+{{ end }}

@@ -1,0 +1,95 @@
+{{ define "main" }}
+{{ $paper := .Params}}
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="media row">
+			{{ if $paper.image }}
+			<div class="col-md-3">
+				<img class="pull-left pad-right media-object" src="{{ $paper.image }}">
+			</div>
+			{{ end }}
+			<div class="col-md-9 {{ if not $paper.image }} col-md-offset-3 {{end}}">
+				<div class="media-body titlebox">
+					<div class="title media-heading">
+						{{ $paper.title }}
+					</div>
+					<p>
+						<div class="smallhead">
+							{{ $paper.authors }}
+					<p> {{ $paper.journal }}
+						{{ $paper.volume}}
+						{{ if $paper.issue }}
+							({{$paper.issue}})
+						{{ end }}
+						: {{$paper.pages}}</p>
+					<p>{{ $paper.year }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note">
+			{{ if $paper.pdf }}
+			<div class="smallhead">
+				Download
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="{{ $paper.pdf }}">PDF</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+			{{ if $paper.supplement }}
+			<div class="smallhead">
+				Supplement
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-paperclip fa-fw"></i>
+				<a class="off" href="{{ $paper.supplement }}">{{ $paper.supplement }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+			{{ if $paper.doi }}
+			<div class="smallhead">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/{{ $paper.doi }}">{{ $paper.doi }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+			{{ if $paper.github }}
+			<div class="smallhead">
+				Source code
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-github fa-fw"></i>
+				<a class="off" href="{{ $paper.github }}">{{ $paper.github_n }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="post">
+			{{ .Content }}
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+
+{{ end }}

@@ -1,5 +1,26 @@
 baseURL = "https://hugheylab.org/"
 languageCode = "en-us"
 title = "Hughey Lab"
+name = "Hughey Lab"
 pluralizelisttitles = false
-theme = "kube"
+theme = "hughey-lab-theme"
+
+[[menu.main]]
+    name = "Research"
+    url = "/research/"
+[[menu.main]]
+    name = "Software"
+    identifier = "software"
+    url = "/software/"
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "People"
+    identifier = "people"
+    url = "/people/"
+[[menu.main]]
+    name = "Papers"
+    identifier = "papers"
+    url = "/papers/"
