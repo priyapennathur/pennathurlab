@@ -1,6 +1,6 @@
 ---
 title: Devi Schwarzbart
-position: Lab Mascot
+position: Support staff
 image: 'images/people/devi-schwarzbart.jpg'
 ---
 

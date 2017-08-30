@@ -12,7 +12,7 @@ results: https://figshare.com/s/2eaf11e88642418f7e81
 software: https://jakejh.shinyapps.io/deltaccd
 peerreviewed: false
 member_ids: shiltsj hugheyjj
-software_ids: metapredict zeitzeiger
+software_ids: metapredict zeitzeiger deltaccd
 ---
 
 # Abstract
