@@ -8544,3 +8544,8 @@ blockquote p {
     opacity: 0;
   }
 }
+.paper-list .pad-left.note {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

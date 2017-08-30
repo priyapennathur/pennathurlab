@@ -88,6 +88,26 @@
 			{{.Content}}
 		</div>
 
+		{{ $.Scratch.Add "papers_exists" "false" }}
+		{{ range .Site.Pages }}
+			{{ if in .Params.member_ids $person.member_id }}
+				{{ $.Scratch.Set "papers_exists" "true" }}
+			{{ end }}
+		{{ end }}
+
+		{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
+
+		{{ if eq $papers_exists "true" }}
+			<div class="bigspacer"></div>
+			<div class="head">Papers</div>
+			<div class="spacer"></div>
+			{{ range .Site.Pages }}
+				{{ if in .Params.member_ids $person.member_id }}
+					<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
+				{{ end }}
+			{{ end }}
+		{{ end }}
+
 	</div>
 	<div class="col-md-1"></div>
 </div>
