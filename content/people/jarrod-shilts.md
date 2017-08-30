@@ -1,11 +1,12 @@
 ---
 title: Jarrod Shilts
+sort_name: Shilts, Jarrod
 position: Undergraduate Researcher
 email: jarrod.shilts@vanderbilt.edu
 github: JShilts
 image: 'images/people/jarrod-shilts.jpg'
 member_id: shiltsj
-status: alum
+alum: true
 ---
 
 I am currently a senior at Rutgers majoring in Genetics and Psychology. I am originally from Kiev, Ukraine but have spent most of my life in New Jersey. I graduated from Cherry Hill East High School in 2013. 

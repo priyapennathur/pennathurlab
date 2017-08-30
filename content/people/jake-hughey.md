@@ -1,5 +1,6 @@
 ---
 title: Jake Hughey
+sort_name: Hughey, Jake
 position: Principal Investigator
 email: jakejhughey@gmail.com
 twitter: jakejhughey
