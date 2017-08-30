@@ -1,8 +1,8 @@
 {{ define "main" }}
+{{ $software := .Params }}
 <div class="blog-post">
 	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-10">
+		<div class="col-md-12">
 			<div class="media">
 				<div class="media-body">
 					<div class="title media-heading">
@@ -17,23 +17,40 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-1"></div>
 	</div>
 
 	<div class="bigspacer"></div>
 
 	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-10">
+		<div class="col-md-12">
 			<div class="post">
 				{{ .Content }}
 			</div>
+
+
+			{{ $.Scratch.Add "papers_exists" "false" }}
+			{{ range .Site.Pages }}
+			{{ if in .Params.software_ids $software.software_id }}
+			{{ $.Scratch.Set "papers_exists" "true" }}
+			{{ end }}
+			{{ end }}
+
+			{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
+
+			{{ if eq $papers_exists "true" }}
+			<div class="bigspacer"></div>
+			<div class="head">Papers</div>
+			<div class="spacer"></div>
+			{{ range .Site.Pages }}
+			{{ if in .Params.software_ids $software.software_id }}
+			<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
+			{{ end }}
+			{{ end }}
+			{{ end }}
 		</div>
-		<div class="col-md-1"></div>
 	</div>
 
 	<div class="bigspacer"></div>
 	<div class="spacer"></div>
-
 </div>
 {{ end }}
