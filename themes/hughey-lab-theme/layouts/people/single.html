@@ -5,7 +5,7 @@
 		<div class="media row">
 			{{if $person.image }}
 			<div class="col-md-3">
-				<img class="pull-left pad-right media-object" width=120 src="{{.Site.BaseURL}}{{ $person.image }}">
+				<img class="pull-left pad-right media-object" width=120 src="/assets/images/people/{{ $person.image }}">
 			</div>
 			{{ end }}
 			<div class="col-md-9">
@@ -87,27 +87,27 @@
 		<div class="post">
 			{{.Content}}
 		</div>
-
-		{{ $.Scratch.Add "papers_exists" "false" }}
-		{{ range .Site.Pages }}
-			{{ if in .Params.member_ids $person.member_id }}
-				{{ $.Scratch.Set "papers_exists" "true" }}
-			{{ end }}
-		{{ end }}
-
-		{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
-
-		{{ if eq $papers_exists "true" }}
-			<div class="bigspacer"></div>
-			<div class="head">Papers</div>
-			<div class="spacer"></div>
+		<div class="post">
+			{{ $.Scratch.Add "papers_exists" "false" }}
 			{{ range .Site.Pages }}
 				{{ if in .Params.member_ids $person.member_id }}
-					<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
+					{{ $.Scratch.Set "papers_exists" "true" }}
 				{{ end }}
 			{{ end }}
-		{{ end }}
 
+			{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
+
+			{{ if eq $papers_exists "true" }}
+				<div class="bigspacer"></div>
+				<div class="head">Papers</div>
+				<div class="spacer"></div>
+				{{ range .Site.Pages }}
+					{{ if in .Params.member_ids $person.member_id }}
+						<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
+					{{ end }}
+				{{ end }}
+			{{ end }}
+		</div>
 	</div>
 	<div class="col-md-1"></div>
 </div>

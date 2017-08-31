@@ -1,4 +1,5 @@
 @import "bootstrap/bootstrap";
+
 @brand-primary: #DD2D2D;
 @line-height-base: 1.6;
 @navbar-height: 60px;
@@ -7,31 +8,55 @@
 @pre-color: #586E75;
 @well-bg: #f8f8f8;
 @code-bg: #f8f8f8;
-@pre-bg: #f8f8f8;  
+@pre-bg: #f8f8f8;
 @nav-pills-active-link-hover-bg: @navbar-default-bg;
 @nav-pills-active-link-hover-color: @gray;
 @fa-font-path: "../fonts";
 
 @import "font-awesome/font-awesome";
 
-
 @import "_solarized";
 @import "_katex";
+@import "_grid";
 
-h1, .h1 { font-size: floor(@font-size-base * 2.50); } /* ~34px */
-h2, .h2 { font-size: floor(@font-size-base * 2.15); } /* ~30px */
-h3, .h3 { font-size: ceil(@font-size-base * 1.70); }  /* ~24px */
-h4, .h4 { font-size: ceil(@font-size-base * 1.25); }  /* ~18px */
-h5, .h5 { font-size:  @font-size-base; }
-h6, .h6 { font-size: ceil(@font-size-base * 0.85); }  /* ~12px */
+h1, .h1 {
+  font-size: floor(@font-size-base * 2.50);
+}
+
+/* ~34px */
+h2, .h2 {
+  font-size: floor(@font-size-base * 2.15);
+}
+
+/* ~30px */
+h3, .h3 {
+  font-size: ceil(@font-size-base * 1.70);
+}
+
+/* ~24px */
+h4, .h4 {
+  font-size: ceil(@font-size-base * 1.25);
+}
+
+/* ~18px */
+h5, .h5 {
+  font-size: @font-size-base;
+}
+
+h6, .h6 {
+  font-size: ceil(@font-size-base * 0.85);
+}
+
+/* ~12px */
 
 /* typekit */
 
 .wf-loading {
-    visibility: hidden;
+  visibility: hidden;
 }
+
 .wf-active {
-	visibility: visible;
+  visibility: visible;
 }
 
 /* general */
@@ -47,272 +72,266 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 200;
-	/* Museo */	
+  font-weight: 200;
+  /* Museo */
 }
 
 .center {
-     float: none;
-     margin-left: auto;
-     margin-right: auto;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-center {
-     text-align: center;
+  text-align: center;
 }
 
 /* logo */
 
 .logo {
-	width: 60px;
-	height: 60px;
-	padding: 5px;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
 }
 
 .biglogo {
-	width: 170px;
-	height: 170px;
-	padding: 5px;
+  width: 170px;
+  height: 170px;
+  padding: 5px;
 }
 
 .logobox {
-	height: 170px;
-	display: table-cell; 
-	vertical-align: middle;
+  height: 170px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* navbar */
 
-.navbar-brand { 
-	font-size: 30px; 
-	font-weight: 200;
-	/* Museo */	
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 200;
+  /* Museo */
 }
-.navbar-nav { 
-	font-size: 30px; 
-	font-weight: 200;
-	/* Museo */	
+
+.navbar-nav {
+  font-size: 30px;
+  font-weight: 200;
+  /* Museo */
 }
+
 .navbar-text {
-	font-size: 15px;
-	font-weight: 200;	
-	/* Museo */		
+  font-size: 15px;
+  font-weight: 200;
+  /* Museo */
 }
 
 /* headings */
 
 .bigtitle {
-	font-size: 60px; 
-	line-height: 55px;	
-	font-weight: 200;
-	/* Museo */	
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: 200;
+  /* Museo */
 }
 
 .title {
-	font-size: 36px; 
-	line-height: 40px;	
-	font-weight: 200;
-	/* Museo */	
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 200;
+  /* Museo */
 }
 
 .bighead {
-	font-size: 32px;
-	font-weight: 200;
-	line-height:36px;
-	/* Museo */	
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 36px;
+  /* Museo */
 }
 
 .head {
-	font-size: 26px;
-	font-weight: 200;
-	line-height:30px;
-	/* Museo */	
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 30px;
+  /* Museo */
 }
 
 .smallhead {
-	font-size: 19px;
-	font-weight: 200;
-	line-height: 23px;
-	/* Museo */	
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 23px;
+  /* Museo */
 }
 
 .note {
-	font-size: 15px;
-	font-weight: 200;
-	line-height: 18px;
-	/* Museo */	
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 18px;
+  /* Museo */
 }
 
 .smallnote {
-	font-size: 13px;
-	font-weight: 200;
-	line-height: 16px;
-	/* Museo */	
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 16px;
+  /* Museo */
 }
 
 .text-gray {
-	color: @gray-light;
+  color: @gray-light;
 }
 
 .text-dark-gray {
-	color: @gray;
+  color: @gray;
 }
 
 /* other */
 
 body {
-	font-weight: 200;
+  font-weight: 200;
 }
 
 p {
-	font-weight: 200;
+  font-weight: 200;
 }
 
 .hugespacer {
-	height: 50px;
+  height: 50px;
 }
 
 .bigspacer {
-	height: 20px;
+  height: 20px;
 }
 
 .spacer {
-	height: 10px;
+  height: 10px;
 }
 
 .smallspacer {
-	height: 5px;
+  height: 5px;
 }
 
-a.off { 
-	color: inherit; 
+a.off {
+  color: inherit;
 }
 
 pre {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 pre code {
-    overflow-wrap: normal;
-    white-space: pre;
+  overflow-wrap: normal;
+  white-space: pre;
 }
 
 table {
-	.table;
-	.table-striped;
+  .table;
+  .table-striped;
 }
 
 img {
-	.img-responsive;
+  .img-responsive;
 }
 
 img.offset {
-	float: right; 
-	margin: 12px 0px 10px 15px;
+  float: right;
+  margin: 12px 0px 10px 15px;
 }
 
 img.avatar {
-	width: 20px;
+  width: 20px;
 }
 
 .post img {
-     float: none;
-     margin-left: auto;
-     margin-right: auto;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 blockquote {
-	.text-gray;
-	p {
+  .text-gray;
+  p {
     font-size: (@font-size-base * 1.00);
-    }
+  }
 }
 
 .breadcrumb {
-	padding: 0px 0px;
-	background-color: @body-bg;
-	> li {
-		&+li:before {  
-			padding: 0px;
-			content: "\00a0@{breadcrumb-separator}\00a0";
-		}
-		&+li:after {  
-			padding: 0px;
-		}
-	}
+  padding: 0px 0px;
+  background-color: @body-bg;
+  > li {
+    & + li:before {
+      padding: 0px;
+      content: "\00a0@{breadcrumb-separator}\00a0";
+    }
+    & + li:after {
+      padding: 0px;
+    }
+  }
 }
 
 .feedbox {
-    height: 420px;
-    overflow: hidden;    
-	-webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));   
-/*	-webkit-box-shadow: inset 0 -30px 10px -10px white; */
-/*	   -moz-box-shadow: inset 0 -30px 10px -10px white; */
-/*	        box-shadow: inset 0 -30px 10px -10px white; */
-}
-
-.postbox {
-	min-height: 110px;
-}
-
-.paperbox {
-	min-height: 160px;
+  height: 420px;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+  /*	-webkit-box-shadow: inset 0 -30px 10px -10px white; */
+  /*	   -moz-box-shadow: inset 0 -30px 10px -10px white; */
+  /*	        box-shadow: inset 0 -30px 10px -10px white; */
 }
 
 .projectbox {
-	min-height: 120px;
-}
-
-.memberbox {
-	min-height: 200px;
+  min-height: 120px;
 }
 
 .talkbox {
-	min-height: 100px;
+  min-height: 100px;
 }
 
 .titlebox {
-	min-width: 300px;    
+  min-width: 300px;
 }
 
 .handlebox {
-	height: 20px;
-	display: table-cell; 
-	vertical-align: middle;
+  height: 20px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .pad-right {
-	padding-right: 10px;
+  padding-right: 10px;
 }
 
 .pad-left {
-	padding-left: 10px;
+  padding-left: 10px;
 }
 
 #footer {
-	height: 80px;
+  height: 80px;
 }
 
 .footernav {
-	.note;
-	.text-dark-gray;
-	text-align: center;
+  .note;
+  .text-dark-gray;
+  text-align: center;
 }
 
-.centered-pills {  
-    text-align: center
+.centered-pills {
+  text-align: center
 }
+
 .centered-pills ul.nav-pills {
-    display: inline-block
+  display: inline-block
 }
+
 .centered-pills li {
-    display: inline
+  display: inline
 }
+
 .centered-pills a {
-    float: left
+  float: left
 }
-* html .centered-pills ul.nav-pills, *+html .centered-pills ul.nav-pills {
-    display: inline
+
+* html .centered-pills ul.nav-pills, * + html .centered-pills ul.nav-pills {
+  display: inline
 }
 
 /* Infinite scroll */
@@ -324,13 +343,15 @@ blockquote {
   border-radius: 40px;
   background-color: #333;
   margin: 60px auto;
-  
+
   -webkit-animation: scaleout 1.0s infinite ease-in-out;
   animation: scaleout 1.0s infinite ease-in-out;
 }
 
 @-webkit-keyframes scaleout {
-  0% { -webkit-transform: scale(0.0) }
+  0% {
+    -webkit-transform: scale(0.0)
+  }
   100% {
     -webkit-transform: scale(1.0);
     opacity: 0;
@@ -341,7 +362,8 @@ blockquote {
   0% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 100% {
+  }
+  100% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
     opacity: 0;
@@ -349,9 +371,34 @@ blockquote {
 }
 
 .paper-list {
-	.pad-left.note {
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+  .pad-left.note {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.navbar-footer {
+  margin-bottom: 0;
+}
+
+.post {
+  font-size: 16px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  > .content {
+    flex: 1 0 auto;
+  }
 }
