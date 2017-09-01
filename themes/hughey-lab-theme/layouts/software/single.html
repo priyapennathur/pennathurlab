@@ -25,28 +25,28 @@
 		<div class="col-md-12">
 			<div class="post">
 				{{ .Content }}
+
+				{{ $.Scratch.Add "papers_exists" "false" }}
+				{{ range .Site.Pages }}
+				{{ if in .Params.software_ids $software.software_id }}
+				{{ $.Scratch.Set "papers_exists" "true" }}
+				{{ end }}
+				{{ end }}
+
+				{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
+
+				{{ if eq $papers_exists "true" }}
+				<div class="bigspacer"></div>
+				<div class="head">Papers</div>
+				<div class="spacer"></div>
+				{{ range .Site.Pages }}
+				{{ if in .Params.software_ids $software.software_id }}
+				<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
+				{{ end }}
+				{{ end }}
+				{{ end }}
 			</div>
 
-
-			{{ $.Scratch.Add "papers_exists" "false" }}
-			{{ range .Site.Pages }}
-			{{ if in .Params.software_ids $software.software_id }}
-			{{ $.Scratch.Set "papers_exists" "true" }}
-			{{ end }}
-			{{ end }}
-
-			{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
-
-			{{ if eq $papers_exists "true" }}
-			<div class="bigspacer"></div>
-			<div class="head">Papers</div>
-			<div class="spacer"></div>
-			{{ range .Site.Pages }}
-			{{ if in .Params.software_ids $software.software_id }}
-			<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
-			{{ end }}
-			{{ end }}
-			{{ end }}
 		</div>
 	</div>
 
