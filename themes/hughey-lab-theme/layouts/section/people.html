@@ -1,10 +1,10 @@
 {{ define "main" }}
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
+		<div class="col-md-12">
 			<div class="row">
 				{{ range (where .Data.Pages ".Params.position"  "Principal Investigator") }}
 					{{ if not ( isset .Params "alum" ) }}
-					<div class="col-md-6 memberbox">
+					<div class="col-md-4 memberbox">
 						<div class="media">
 							<a class="pull-left" href="{{ .Permalink }}">
 								<img width=170 class="media-object" src="/assets/images/people/{{ .Params.image }}"/>
@@ -22,7 +22,7 @@
 				{{ end }}
 				{{ range (where .Data.Pages ".Params.position" "!=" "Principal Investigator") }}
 					{{ if not ( isset .Params "alum" ) }}
-						<div class="col-md-6 memberbox">
+						<div class="col-md-4 memberbox">
 							<div class="media">
 								<a class="pull-left" href="{{ .Permalink }}">
 									<img width=170 class="media-object" src="/assets/images/people/{{ .Params.image }}"/>
@@ -43,7 +43,7 @@
 				{{ range sort .Data.Pages ".Params.sort_name" }}
 
 					{{ if isset .Params "alum" }}
-					<div class="col-md-6 memberbox">
+					<div class="col-md-4 memberbox">
 						<div class="media">
 							<a class="pull-left" href="{{ .Permalink }}">
 								<img width=170 class="media-object" src="/assets/images/people/{{ .Params.image }}"/>

@@ -157,7 +157,7 @@ h6 {
 }
 
 .smallhead {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 200;
   line-height: 23px;
   /* Museo */
@@ -171,7 +171,7 @@ h6 {
 }
 
 .smallnote {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 200;
   line-height: 16px;
   /* Museo */
@@ -401,4 +401,22 @@ html, body {
   > .content {
     flex: 1 0 auto;
   }
+}
+
+body {
+  padding-top: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  z-index: 100;
+}
+
+#header.nav-up {
+  top: -60px;
 }
