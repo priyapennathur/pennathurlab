@@ -6,21 +6,27 @@ pluralizelisttitles = false
 theme = "hughey-lab-theme"
 
 [[menu.main]]
-    name = "Research"
-    url = "/research/"
+    name = "Papers"
+    identifier = "papers"
+    url = "/papers/"
+    weight = 1
 [[menu.main]]
     name = "Software"
     identifier = "software"
     url = "/software/"
+    weight = 2
 [[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/blog/"
+    name = "Research"
+    url = "/research/"
+    weight = 3
 [[menu.main]]
     name = "People"
     identifier = "people"
     url = "/people/"
+    weight = 4
 [[menu.main]]
-    name = "Papers"
-    identifier = "papers"
-    url = "/papers/"
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog/"
+    weight = 5
+
