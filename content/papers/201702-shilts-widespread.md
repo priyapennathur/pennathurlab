@@ -7,6 +7,7 @@ authors: Jarrod Shilts, Guanhua Chen, Jacob J. Hughey
 preprint_journal: bioRxiv
 preprint_doi: 10.1101/130765
 short_ref: Shilts et al., bioRxiv
+peer_reviewed: false
 journal: 
 year: 
 doi: 

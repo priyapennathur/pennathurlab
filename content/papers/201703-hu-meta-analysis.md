@@ -7,10 +7,10 @@ authors: Zicheng Hu, Chethan Jujjavarapu, Jacob J. Hughey, Sandra Andorf, Pier F
 preprint_journal: bioRxiv
 preprint_doi: 10.1101/130948
 short_ref: Hu et al., bioRxiv
+peer_reviewed: false
 journal: 
 year: 
 doi: 
-results: 
 software: https://github.com/hzc363/MetaCyto
 member_ids: hugheyjj
 software_ids: 
