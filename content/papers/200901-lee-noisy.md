@@ -3,7 +3,7 @@ date: 2009-01-01
 slug: lee-noisy
 image: 200901-lee-noisy.png
 title: A Noisy Paracrine Signal Determines the Cellular NF-κB Response to Lipopolysaccharide
-authors: Lee TK, Denny EM, Sanghvi JC, Gaston JE, Maynard ND, Hughey JJ, Covert MW
+authors: Timothy K. Lee, Elissa M. Denny, Jayodita C. Sanghvi, Jahlionais E. Gaston, Nathaniel D. Maynard, Jacob J. Hughey, Markus W. Covert
 journal: Science Signaling
 year: 2009
 short_ref: Lee et al., Sci Signal 2009

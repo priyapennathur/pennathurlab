@@ -3,7 +3,7 @@ date: 2016-01-02
 slug: mortensen-crowd
 image: 201602-mortensen-crowd.png
 title: "Is the Crowd Better as an Assistant or a Replacement in Ontology Engineering? An Exploration Through the Lens of the Gene Ontology"
-authors: Mortensen JM, Telis N, Hughey JJ, Fan-Minogue H, Auken KV, Dumontier M, Musen MA
+authors: Jonathan M. Mortensen, Natalie Telis, Jacob J. Hughey, Hua Fan-Minogue, Kimberly Van Aukene, Michel Dumontier, Mark A. Musen
 journal: Journal of Biomedical Informatics
 year: 2016
 short_ref: Mortensen et al., J Biomed Inform 2016

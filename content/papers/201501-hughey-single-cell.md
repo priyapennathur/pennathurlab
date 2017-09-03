@@ -3,7 +3,7 @@ date: 2015-01-01
 slug: hughey-single-cell
 image: 201501-hughey-single-cell.png
 title: Single-cell variation leads to population invariance in NF-κB signaling dynamics
-authors: Hughey JJ*, Gutschow MV*, Bajar BT, Covert MW, *equal contribution
+authors: Jacob J. Hughey*, Miriam V. Gutschow*, Bryce T. Bajar, Markus W. Covert (*equal contribution)
 journal: Molecular Biology of the Cell
 year: 2015
 short_ref: Hughey & Gutschow et al., Mol Biol Cell 2015

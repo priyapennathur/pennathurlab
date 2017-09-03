@@ -16,17 +16,13 @@ theme = "hughey-lab-theme"
     url = "/software/"
     weight = 2
 [[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 3
-[[menu.main]]
     name = "People"
     identifier = "people"
     url = "/people/"
     weight = 4
 [[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/blog/"
+    name = "News"
+    identifier = "news"
+    url = "/news/"
     weight = 5
 

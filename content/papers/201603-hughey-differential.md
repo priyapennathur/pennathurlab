@@ -3,7 +3,7 @@ date: 2016-01-03
 slug: hughey-differential
 image: 201603-hughey-differential.png
 title: Differential phasing between circadian clocks in the brain and peripheral organs in humans
-authors: Hughey JJ and Butte AJ
+authors: Jacob J. Hughey and Atul J. Butte
 journal: Journal of Biological Rhythms
 year: 2016
 short_ref: Hughey and Butte, J Biol Rhythms 2016
