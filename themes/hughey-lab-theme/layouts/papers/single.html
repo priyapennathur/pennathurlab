@@ -35,71 +35,57 @@
 		<div class="glyphbox note">
 
 			{{ if $paper.pdf }}
-			<div class="smallhead">Full text</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/assets/papers/{{ $paper.pdf }}">PDF</a>
+			<div class="smallhead">
+			<i class="fa fa-file-text-o fa-fw"></i>
+			<a class="off" href="/assets/papers/{{ $paper.pdf }}">Full text</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
 
 			{{ if $paper.supp }}
-			<div class="smallhead">Supplement</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="/assets/papers/{{ $paper.supp }}">{{ $paper.supp }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{{ end }}
-
-			{{ if $paper.reviews }}
-			<div class="smallhead">Peer reviews</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="/assets/papers/{{ $paper.reviews }}">{{ $paper.reviews }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{{ end }}
-
-			{{ if $paper.doi }}
-			<div class="smallhead">Journal</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="https://dx.doi.org/{{ $paper.doi }}">{{ $paper.doi }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{{ end }}
-
-			{{ if $paper.pmid }}
-			<div class="smallhead">Pubmed</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ $paper.pmid }}">{{ $paper.pmid }}</a>
+			<div class="smallhead">
+			<i class="fa fa-file-o fa-fw"></i>
+			<a class="off" href="/assets/papers/{{ $paper.supp }}">Supplement</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
 
 			{{ if $paper.results }}
-			<div class="smallhead">Results</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="{{ $paper.results }}">{{ $paper.results }}</a>
+			<div class="smallhead">
+			<i class="fa fa-bar-chart-o fa-fw"></i>
+			<a class="off" href="{{ $paper.results }}">Reproducible results</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
 
 			{{ if $paper.software }}
-			<div class="smallhead">Software</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-github fa-fw"></i>
-				<a class="off" href="{{ $paper.software }}">{{ $paper.software }}</a>
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="{{ $paper.software }}">Software</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $paper.reviews }}
+			<div class="smallhead">
+			<i class="fa fa-comments-o fa-fw"></i>
+			<a class="off" href="/assets/papers/{{ $paper.reviews }}">Peer reviews</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $paper.doi }}
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="https://dx.doi.org/{{ $paper.doi }}">Journal</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $paper.pmid }}
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ $paper.pmid }}">PubMed</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
