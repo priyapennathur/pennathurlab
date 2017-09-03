@@ -26,22 +26,22 @@
 			<div class="post">
 				{{ .Content }}
 
-				{{ $.Scratch.Add "papers_exists" "false" }}
+				{{ $.Scratch.Add "papers_exist" "false" }}
 				{{ range .Site.Pages }}
 				{{ if in .Params.software_ids $software.software_id }}
-				{{ $.Scratch.Set "papers_exists" "true" }}
+				{{ $.Scratch.Set "papers_exist" "true" }}
 				{{ end }}
 				{{ end }}
 
-				{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
+				{{ $papers_exist :=  $.Scratch.Get "papers_exist" }}
 
-				{{ if eq $papers_exists "true" }}
+				{{ if eq $papers_exist "true" }}
 				<div class="bigspacer"></div>
 				<div class="head">Papers</div>
 				<div class="spacer"></div>
 				{{ range .Site.Pages }}
 				{{ if in .Params.software_ids $software.software_id }}
-				<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
+				<p><a href="{{ .Permalink }}" class="off">{{ .Title }}, {{ .Params.short_ref }}</a></p>
 				{{ end }}
 				{{ end }}
 				{{ end }}
