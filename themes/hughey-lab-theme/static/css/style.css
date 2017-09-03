@@ -10002,3 +10002,8 @@ body {
 #header.nav-up {
   top: -60px;
 }
+.person-img-w {
+  border: 1px solid black;
+  margin-right: 10px!important;
+  padding-right: 0!important;
+}
