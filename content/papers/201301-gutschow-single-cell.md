@@ -1,6 +1,6 @@
 ---
 date: 2013-01-01
-slug: gutschow-single-cell
+slug: 2013-gutschow-single-cell
 image: 201301-gutschow-single-cell.png
 title: Single-cell and Population NF-κB Dynamic Responses Depend on Lipopolysaccharide Preparation
 authors: Miriam V. Gutschow*, Jacob J. Hughey*, Nicholas A. Ruggero, Bryce T. Bajar, Sean D. Valle, Markus W. Covert (*equal contribution)

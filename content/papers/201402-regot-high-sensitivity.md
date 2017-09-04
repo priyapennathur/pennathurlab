@@ -1,6 +1,6 @@
 ---
 date: 2014-01-02
-slug: regot-high-sensitivity
+slug: 2014-regot-high-sensitivity
 image: 201402-regot-high-sensitivity.png
 title: High-sensitivity measurements of multiple kinase activities in live single cells
 authors: Sergi Regot, Jacob J. Hughey, Bryce T. Bajar, Silvia Carrasco, Markus W. Covert

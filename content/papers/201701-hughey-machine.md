@@ -1,6 +1,6 @@
 ---
 date: 2017-02-01
-slug: hughey-machine
+slug: 2017-hughey-machine
 image: 201701-hughey-machine.png
 title: "Machine learning identifies a compact gene set for monitoring the circadian clock in human blood"
 authors: Jacob J. Hughey

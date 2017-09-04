@@ -1,6 +1,6 @@
 ---
 date: 2016-01-01
-slug: hughey-zeitzeiger
+slug: 2016-hughey-zeitzeiger
 image: 201601-hughey-zeitzeiger.png
 title: "ZeitZeiger: supervised learning for high-dimensional data from an oscillatory system"
 authors: Jacob J. Hughey, Trevor Hastie, Atul J. Butte
