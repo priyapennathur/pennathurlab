@@ -3,9 +3,9 @@
 
 name = "hughey-lab-theme"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://gitlab.com/hugheylab/hughey-lab-theme/blob/master/LICENSE.md"
 description = ""
-homepage = "http://example.com/"
+homepage = "https://gitlab.com/hugheylab/hughey-lab-theme"
 tags = []
 features = []
 min_version = "0.26"
