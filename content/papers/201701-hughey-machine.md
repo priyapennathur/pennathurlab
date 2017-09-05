@@ -16,7 +16,7 @@ pmid: 28241858
 reviews: 2017-hughey-machine-reviews.pdf
 results: https://dx.doi.org/10.6084/m9.figshare.3756375.v1
 member_ids: hugheyjj
-software_ids: metapredict zeitzeiger
+software_ids: [metapredict, zeitzeiger]
 ---
 
 # Abstract

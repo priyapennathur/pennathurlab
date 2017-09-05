@@ -14,7 +14,7 @@ pmid: 27702781
 reviews: 2016-hughey-differential-reviews.pdf
 results: https://dx.doi.org/10.5061/dryad.g928q
 member_ids: hugheyjj
-software_ids: metapredict zeitzeiger
+software_ids: [metapredict, zeitzeiger]
 ---
 
 # Abstract

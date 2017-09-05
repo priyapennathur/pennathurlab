@@ -1,56 +1,87 @@
 {{ define "main" }}
-{{ $software := .Params }}
-<div class="blog-post">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="media">
-				<div class="media-body">
+{{ $software := .Params}}
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="media row">
+
+			{{if $software.image }}
+			<div class="col-md-3">
+				<img class="pull-left pad-right media-object" src="/assets/images/software/{{ $software.image }}">
+			</div>
+			{{ end }}
+
+			<div class="col-md-9 {{ if not $software.image }} col-md-offset-3 {{end}}">
+				<div class="media-body titlebox">
 					<div class="title media-heading">
-						<h1>{{ .Params.title }}</h1>
+						{{ $software.title }}
 					</div>
-					<p>
+<!-- 					<p>
 					<div class="smallhead">
-						{{if .Params.description }}
-							<span class="off">{{ .Params.description }}</span>
-						{{ end }}
-					</div>
+						{{ $software.description }}
+					</div> -->
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="bigspacer"></div>
+<div class="bigspacer"></div>
 
-	<div class="row">
-		<div class="col-md-12">
-			<div class="post">
-				{{ .Content }}
+<div class="row">
+	<div class="col-md-3">
 
-				{{ $.Scratch.Add "papers_exist" "false" }}
-				{{ range .Site.Pages }}
+			{{ if $software.web_app }}
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="{{ $software.web_app }}">Web app</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $software.source }}
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="{{ $software.source }}">Source</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $software.docker }}
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="{{ $software.docker }}">Docker</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+	</div>
+	<div class="col-md-8">
+		<div class="post">
+			{{.Content}}
+
+			{{ $.Scratch.Add "papers_exist" "false" }}
+			{{ range .Site.Pages }}
 				{{ if in .Params.software_ids $software.software_id }}
-				{{ $.Scratch.Set "papers_exist" "true" }}
+					{{ $.Scratch.Set "papers_exist" "true" }}
 				{{ end }}
-				{{ end }}
+			{{ end }}
 
-				{{ $papers_exist :=  $.Scratch.Get "papers_exist" }}
+			{{ $papers_exist :=  $.Scratch.Get "papers_exist" }}
 
-				{{ if eq $papers_exist "true" }}
+			{{ if eq $papers_exist "true" }}
 				<div class="bigspacer"></div>
 				<div class="head">Papers</div>
 				<div class="spacer"></div>
 				{{ range .Site.Pages }}
-				{{ if in .Params.software_ids $software.software_id }}
-				<p><a href="{{ .Permalink }}" class="off">{{ .Title }}, {{ .Params.short_ref }}</a></p>
+					{{ if in .Params.software_ids $software.software_id }}
+						<p><a href="{{ .Permalink }}" class="off">{{ .Title }}, {{ .Params.short_ref }}</a></p>
+					{{ end }}
 				{{ end }}
-				{{ end }}
-				{{ end }}
-			</div>
-
+			{{ end }}
 		</div>
 	</div>
-
-	<div class="bigspacer"></div>
-	<div class="spacer"></div>
+	<div class="col-md-1"></div>
 </div>
+
 {{ end }}

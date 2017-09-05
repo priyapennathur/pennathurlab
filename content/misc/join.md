@@ -1,6 +1,9 @@
 ---
-title: Join the lab
+title: Hughey Lab / Join
+url: /join/
 ---
+
+# Join the lab
 
 I'm currently starting my own lab and am looking for exceptional individuals to be part of the team. More than any particular set of skills, I'm interested in people who are hard-working, creative, and eager to learn. Candidates at all levels are encouraged to apply.
 
@@ -24,4 +27,4 @@ Highly motivated undergraduates should email me a resume and a short description
 
 ## Mascots
 
-Although the lab already has one [highly accomplished mascot](http://www.dogshowscores.com/dogs/DN33239206), we are willing to consider additional outstanding applicants.
+Although the lab already has one [highly accomplished mascot](/people/devi-schwarzbart), we are willing to consider additional outstanding applicants.

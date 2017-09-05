@@ -14,7 +14,7 @@ pmid: 26819407
 results: https://dx.doi.org/10.5061/dryad.hn8gp
 software: https://github.com/jakejh/zeitzeiger
 member_ids: hugheyjj
-software_ids: metapredict zeitzeiger
+software_ids: [metapredict, zeitzeiger]
 ---
 
 # Abstract

@@ -9,8 +9,16 @@ member_id: shiltsj
 alum: true
 ---
 
-I am currently a senior at Rutgers majoring in Genetics and Psychology. I am originally from Kiev, Ukraine but have spent most of my life in New Jersey. I graduated from Cherry Hill East High School in 2013. 
+I am currently a Churchill Scholar, and am pursuing an MPhil degree in Biological Sciences at the University of Cambridge and the Wellcome Trust Sanger Institute.
 
-In the Shah lab my project will involve looking at the changes in codon frequencies in bacteria and assessing whether or not these changes are context dependent. 
 
-In the future I hope to attend medical school. In addition to working in the Shah Lab, I am also working in a lab with Maker 1 conditional mice. Other than working in a lab I enjoy traveling and taking pictures with my dog. 
+
+worked with Kendall Broadie
+
+iGEM
+
+I graduated from Vanderbilt in May 2017, and worked in the Hughey Lab as a [SyBBURE Scholar](http://sybbure.org) during the following summer.
+
+
+https://news.vanderbilt.edu/2017/05/03/class-of-2017-jarrod-shilts/
+https://news.vanderbilt.edu/2017/01/27/arts-and-science-senior-named-churchill-scholar/
