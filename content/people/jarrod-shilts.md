@@ -9,16 +9,10 @@ member_id: shiltsj
 alum: true
 ---
 
-I am currently a Churchill Scholar, and am pursuing an MPhil degree in Biological Sciences at the University of Cambridge and the Wellcome Trust Sanger Institute.
+I received my undergraduate degree from Vanderbilt in 2017. I have a keen interest in genetics, which I pursued through undergraduate programs in molecular biology, neuroscience, and scientific computing.
 
+As a research fellow for the Searle Systems Biology and Bioengineering Undergraduate Research Experience [(SyBBURE)](http://sybbure.org), I worked in the Hughey Lab to uncover links between the circadian clock and human cancer that may inform future therapies.
 
+My research primarily used statistical approaches to convert gene expression data from clinical tumor samples into quantitative readouts of how the clock is functioning in cancers of different types and stages. In addition, I applied these methods to other human diseases and developed mathematical models with the goal of understanding the connection between circadian clock function and various human phenotypes.
 
-worked with Kendall Broadie
-
-iGEM
-
-I graduated from Vanderbilt in May 2017, and worked in the Hughey Lab as a [SyBBURE Scholar](http://sybbure.org) during the following summer.
-
-
-https://news.vanderbilt.edu/2017/05/03/class-of-2017-jarrod-shilts/
-https://news.vanderbilt.edu/2017/01/27/arts-and-science-senior-named-churchill-scholar/
+I am currently working towards an advanced degree at the [Wellcome Trust Sanger Institute](http://www.sanger.ac.uk) in Cambridge, England, where I hope to continue research that applies genetics to understand disease and advance medicine.
