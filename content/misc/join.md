@@ -23,7 +23,7 @@ To apply, please email me:
 - A description of your interest in the lab and the type of projects you would like to pursue.
 - One paper and one piece of code (for those with coding experience) of which you are the primary author and that highlight your skills as a scientist, along with 1-2 sentences explaining your selection(s). Links to publicly available materials are fine.
 - Up-to-date CV.
-- Names and contact information for 2-3 references.
+- Names and contact information of 2-3 references.
 
 ## Graduate students
 
