@@ -1,6 +1,7 @@
 ---
 title: "The Hughey Lab is officially open for science."
 date: 2017-08-24
+author: hugheyjj
 ---
 
 ![](/assets/images/news/2017-08-24-giphy.gif)
