@@ -5,15 +5,25 @@ url: /join/
 
 # Join the lab
 
-I'm currently starting my own lab and am looking for exceptional individuals to be part of the team. More than any particular set of skills, I'm interested in people who are hard-working, creative, and eager to learn. Candidates at all levels are encouraged to apply.
+I'm currently starting my own lab and am looking for exceptional individuals to be part of the team. More than any particular skills, I'm interested in people who are hard-working, creative, and eager to learn. Successful applicants will have the opportunity to shape the research directions and the culture of the lab.
 
-The focus of the lab is on using computation, broadly defined, to understand dynamic biological systems relevant to human health and disease, particularly in the context of circadian rhythms. The lab has a rich set of collaborators, from experimental biologists to clinical researchers. The lab is also part of the [Vanderbilt Center for Precision Medicine](https://www.vumc.org/cpm).
+The focus of the lab is on using computation, broadly defined, to understand dynamic biological systems relevant to human health and disease, particularly in the context of circadian rhythms. The lab has a rich set of collaborators, from experimental biologists to clinical researchers. The lab is located in Nashville, Tennessee, and is part of the Department of Biomedical Informatics and the [Vanderbilt Center for Precision Medicine](https://www.vumc.org/cpm).
+
+Candidates at all levels are encouraged to apply. NIH-funded positions are available to start immediately.
 
 ## Postdocs
 
-Strong candidates will likely have a PhD in a quantitative field, such as bioinformatics, computational biology, statistics, engineering, computer science, etc. Programming experience and experience working with biological or clinical data is a plus.
+Strong candidates will likely have either:
 
-Prospective candidates should email me a description of their interest in the lab and the type of projects they would like to pursue, along with contact information for three references.
+- a PhD in a quantitative / computational field and experience with biological or clinical data
+- a PhD in the biological sciences and a strong quantitative background
+
+To apply, please email me:
+
+- A description of your interest in the lab and the type of projects you would like to pursue.
+- One paper and one piece of code (for those with coding experience) of which you are the primary author and that highlight your skills as a scientist, along with 1-2 sentences explaining your selection(s). Links to publicly available materials are fine.
+- Up-to-date CV.
+- Names and contact information for 2-3 references.
 
 ## Graduate students
 
@@ -27,4 +37,4 @@ Highly motivated undergraduates should email me a resume and a short description
 
 ## Mascots
 
-Although the lab already has one [highly accomplished mascot](/people/devi-schwarzbart), we are willing to consider additional outstanding applicants.
+Although the lab already has one [highly accomplished mascot](/people/devi-schwarzbart), I'm willing to consider additional outstanding applicants.
