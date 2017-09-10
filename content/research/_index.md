@@ -1,6 +1,5 @@
 ---
-title: RESEARCH title
+title: Hughey Lab / Research
 ---
-
 
 Research page content

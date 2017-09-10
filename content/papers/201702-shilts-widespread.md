@@ -3,16 +3,18 @@ date: 2017-04-01
 slug: shilts-widespread
 image: 201702-shilts-widespread.png
 title: "Widespread dysregulation of the circadian clock in human cancer"
-authors: Shilts J, Chen G, Hughey JJ
-journal: bioRxiv
-year: 2017
-short_ref: Shilts et al., bioRxiv 2017
-doi: 10.1101/130765
+authors: Jarrod Shilts, Guanhua Chen, Jacob J. Hughey
+preprint_journal: bioRxiv
+preprint_doi: 10.1101/130765
+short_ref: Shilts et al., bioRxiv
+peer_reviewed: false
+journal: 
+year: 
+doi: 
 results: https://figshare.com/s/2eaf11e88642418f7e81
 software: https://jakejh.shinyapps.io/deltaccd
-peerreviewed: false
-member_ids: shiltsj hugheyjj
-software_ids: metapredict zeitzeiger deltaccd
+member_ids: [shiltsj, hugheyjj]
+software_ids: [metapredict, zeitzeiger, deltaccd]
 ---
 
 # Abstract

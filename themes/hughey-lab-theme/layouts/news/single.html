@@ -4,14 +4,23 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
 			<div class="media">
-				<div class="media-body">
+				<div class="media-body titlebox">
 					<div class="title media-heading">
-						<h1>{{ .Title }}</h1>
+						{{ .Title }}
 					</div>
 					<p>
 					<div class="smallhead">
-						{{ .Date.Format "2 Jan 2006" }}
+						{{ .Date.Format "2006-01-02" }}
 					</div>
+					<div class="smallhead">
+						{{ $author := .Params.author }}
+						{{ range .Site.Pages }}
+							{{ if eq .Params.member_id $author }}
+								<p> Author: {{ .Params.title }} </p>
+							{{ end }}
+						{{ end }}
+					</div>
+					<div class="bigspacer"></div>
 				</div>
 			</div>
 		</div>

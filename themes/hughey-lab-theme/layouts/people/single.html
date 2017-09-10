@@ -5,12 +5,12 @@
 		<div class="media row">
 			{{if $person.image }}
 			<div class="col-md-3">
-				<img class="pull-left pad-right media-object" width=120 src="/assets/images/people/{{ $person.image }}">
+				<img class="pull-left pad-right media-object person-img-w" width=120 src="/assets/images/people/{{ $person.image }}">
 			</div>
 			{{ end }}
 			<div class="col-md-9">
 				<div class="media-body titlebox">
-					<div class="bigtitle media-heading">
+					<div class="title media-heading">
 						{{ $person.title }}
 					</div>
 					<p>
@@ -27,6 +27,7 @@
 
 <div class="row">
 	<div class="col-md-3">
+
 		{{ if $person.cv }}
 		<div class="smallhead">
 			CV
@@ -38,32 +39,9 @@
 		</div>
 		<div class="bigspacer"></div>
 		{{ end }}
-		{{ if $person.twitter }}
-		<div class="smallhead">
-			Twitter
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-twitter fa-fw"></i>
-			<a class="off" href="https://twitter.com/{{ $person.twitter }}">{{ $person.twitter }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{{ end }}
-		{{ if $person.github }}
-		<div class="smallhead">
-			GitHub
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-github-alt fa-fw"></i>
-			<a class="off" href="https://github.com/{{ $person.github }}">{{ $person.github }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{{ end }}
+
 		{{ if $person.scholar }}
-		<div class="smallhead">
-			Google Scholar
-		</div>
+		<div class="smallhead">Google Scholar</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-book fa-fw"></i>
@@ -71,10 +49,29 @@
 		</div>
 		<div class="bigspacer"></div>
 		{{ end }}
-		{{ if $person.email }}
-		<div class="smallhead">
-			Email
+
+		{{ if $person.twitter }}
+		<div class="smallhead">Twitter</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-twitter fa-fw"></i>
+			<a class="off" href="https://twitter.com/{{ $person.twitter }}">{{ $person.twitter }}</a>
 		</div>
+		<div class="bigspacer"></div>
+		{{ end }}
+
+		{{ if $person.github }}
+		<div class="smallhead">GitHub</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-github fa-fw"></i>
+			<a class="off" href="https://github.com/{{ $person.github }}">{{ $person.github }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{{ end }}
+
+		{{ if $person.email }}
+		<div class="smallhead">Email</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-inbox fa-fw"></i>
@@ -82,28 +79,29 @@
 		</div>
 		<div class="bigspacer"></div>
 		{{ end }}
+
 	</div>
 	<div class="col-md-8">
 		<div class="post">
 			{{.Content}}
 		</div>
 		<div class="post">
-			{{ $.Scratch.Add "papers_exists" "false" }}
+			{{ $.Scratch.Add "papers_exist" "false" }}
 			{{ range .Site.Pages }}
 				{{ if in .Params.member_ids $person.member_id }}
-					{{ $.Scratch.Set "papers_exists" "true" }}
+					{{ $.Scratch.Set "papers_exist" "true" }}
 				{{ end }}
 			{{ end }}
 
-			{{ $papers_exists :=  $.Scratch.Get "papers_exists" }}
+			{{ $papers_exist :=  $.Scratch.Get "papers_exist" }}
 
-			{{ if eq $papers_exists "true" }}
+			{{ if eq $papers_exist "true" }}
 				<div class="bigspacer"></div>
 				<div class="head">Papers</div>
 				<div class="spacer"></div>
 				{{ range .Site.Pages }}
 					{{ if in .Params.member_ids $person.member_id }}
-						<p>{{ .Title }} <a href="{{ .Permalink }}" class="note">{{ .Params.journal }}</a></p>
+						<p><a href="{{ .Permalink }}" class="off">{{ .Title }}, {{ .Params.short_ref }}</a></p>
 					{{ end }}
 				{{ end }}
 			{{ end }}

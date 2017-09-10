@@ -9,8 +9,10 @@ member_id: shiltsj
 alum: true
 ---
 
-I am currently a senior at Rutgers majoring in Genetics and Psychology. I am originally from Kiev, Ukraine but have spent most of my life in New Jersey. I graduated from Cherry Hill East High School in 2013. 
+I received my undergraduate degree from Vanderbilt in 2017. I have a keen interest in genetics, which I pursued through undergraduate programs in molecular biology, neuroscience, and scientific computing.
 
-In the Shah lab my project will involve looking at the changes in codon frequencies in bacteria and assessing whether or not these changes are context dependent. 
+As a research fellow for the Searle Systems Biology and Bioengineering Undergraduate Research Experience [(SyBBURE)](http://sybbure.org), I worked in the Hughey Lab to uncover links between the circadian clock and human cancer that may inform future therapies.
 
-In the future I hope to attend medical school. In addition to working in the Shah Lab, I am also working in a lab with Maker 1 conditional mice. Other than working in a lab I enjoy traveling and taking pictures with my dog. 
+My research primarily used statistical approaches to convert gene expression data from clinical tumor samples into quantitative readouts of how the clock is functioning in cancers of different types and stages. In addition, I applied these methods to other human diseases and developed mathematical models with the goal of understanding the connection between circadian clock function and various human phenotypes.
+
+I am currently working towards an advanced degree at the [Wellcome Trust Sanger Institute](http://www.sanger.ac.uk) in Cambridge, England, where I hope to continue research that applies genetics to understand disease and advance medicine.

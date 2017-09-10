@@ -6,9 +6,9 @@
 		<div class="media row">
 
 			{{ if $paper.image }}
-				<div class="col-md-3">
-					<img class="pull-left pad-right media-object" src="/assets/images/papers/{{ $paper.image }}">
-				</div>
+			<div class="col-md-3">
+				<img class="pull-left pad-right media-object" src="/assets/images/papers/{{ $paper.image }}">
+			</div>
 			{{ end }}
 
 			<div class="col-md-9 {{ if not $paper.image }} col-md-offset-3 {{end}}">
@@ -18,22 +18,18 @@
 					</div>
 					<p>
 						<div class="smallhead">
-							{{ $paper.authors }}
-					<p>
-						{{ $paper.journal }}
-							{{ $paper.volume}}
-						{{ if $paper.issue }}
-						({{$paper.issue}})
-						{{ end }}
-						: {{$paper.pages}}
-					</p>
-					<p>{{ $paper.year }}</p>
+							<p>{{ $paper.authors }}</p>
+							{{ if and (isset $paper "peer_reviewed") (not $paper.peer_reviewed) }}
+							<p>{{ $paper.preprint_journal }}</p>
+							{{ else }}
+							<p>{{ $paper.journal }} ({{ $paper.year }})</p>
+							{{ end }}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-</div>
 
 <div class="bigspacer"></div>
 
@@ -41,86 +37,71 @@
 	<div class="col-md-3 paper-list">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
-			{{ if $paper.pdf }}
+
+			{{ if and (isset $paper "peer_reviewed") (not $paper.peer_reviewed) }}
 			<div class="smallhead">
-				Download
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="/assets/papers/{{ $paper.pdf }}">PDF</a>
-			</div>
-			<div class="bigspacer"></div>
-			{{ end }}
-			{{ if $paper.supp }}
-			<div class="smallhead">
-				Supplement
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="/assets/papers/{{ $paper.supp }}">{{ $paper.supp }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{{ end }}
-			{{ if $paper.reviews }}
-			<div class="smallhead">
-				Reviews
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="/assets/papers/{{ $paper.reviews }}">{{ $paper.reviews }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{{ end }}
-			{{ if $paper.pmid }}
-			<div class="smallhead">
-				Pubmed
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ $paper.pmid }}">{{ $paper.pmid }}</a>
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="https://dx.doi.org/{{ $paper.preprint_doi }}">Preprint</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
 
-			{{ if $paper.doi }}
+			{{ if $paper.pdf }}
 			<div class="smallhead">
-				DOI
+			<i class="fa fa-file-text-o fa-fw"></i>
+			<a class="off" href="/assets/papers/{{ $paper.pdf }}">Full text</a>
 			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ $paper.doi }}">{{ $paper.doi }}</a>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $paper.supp }}
+			<div class="smallhead">
+			<i class="fa fa-file-o fa-fw"></i>
+			<a class="off" href="/assets/papers/{{ $paper.supp }}">Supplement</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
 
 			{{ if $paper.results }}
 			<div class="smallhead">
-				Results
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="/assets/papers/{{ $paper.results }}">{{ $paper.results }}</a>
+			<i class="fa fa-bar-chart-o fa-fw"></i>
+			<a class="off" href="{{ $paper.results }}">Reproducible results</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
 
 			{{ if $paper.software }}
 			<div class="smallhead">
-				Software
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-github fa-fw"></i>
-				<a class="off" href="{{ $paper.software }}">{{ $paper.software }}</a>
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="{{ $paper.software }}">Software</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
+
+			{{ if $paper.reviews }}
+			<div class="smallhead">
+			<i class="fa fa-comments-o fa-fw"></i>
+			<a class="off" href="/assets/papers/{{ $paper.reviews }}">Peer reviews</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $paper.doi }}
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="https://dx.doi.org/{{ $paper.doi }}">Journal</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
+			{{ if $paper.pmid }}
+			<div class="smallhead">
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="https://www.ncbi.nlm.nih.gov/pubmed/{{ $paper.pmid }}">PubMed</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
 		</div>
 	</div>
 	<div class="col-md-8">
@@ -130,6 +111,5 @@
 	</div>
 	<div class="col-md-1"></div>
 </div>
-
 
 {{ end }}
