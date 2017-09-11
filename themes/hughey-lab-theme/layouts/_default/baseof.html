@@ -23,7 +23,7 @@
 			<div class="smallhead media-heading">
 				<a href="{{ .Permalink }}" class="off">{{ .Params.title }}</a>
 			</div>
-			<p>{{slicestr .Summary 0 150}}...</p>
+			<p>{{slicestr .Summary 0 150 | markdownify}} ... </p>
 			<div class="smallnote">Posted at {{ .Date.Format "2006-01-02" }}</div>
 			<div class="bigspacer"></div>
 			<div class="spacer"></div>
