@@ -2,39 +2,14 @@
 
 {{ block "main" . }}
 <div class="blog-post">
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-10">
-			<div class="media">
-				<div class="media-body titlebox">
-					<div class="title media-heading">
-						{{ .Title }}
-					</div>
-					<p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-1"></div>
+	<div class="post">
+		{{ .Content }}
 	</div>
-
-	<div class="bigspacer"></div>
-
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-10">
-			{{if .Params.image }}
-			<img class="offset" src="{{ .Params.image }}">
-			{{end }}
-			<div class="post">
-				{{ .Content }}
-			</div>
-		</div>
-		<div class="col-md-1"></div>
-	</div>
-
-	<div class="bigspacer"></div>
-	<div class="spacer"></div>
-
 </div>
+
+<div class="bigspacer"></div>
+<div class="spacer"></div>
+
 {{ end }}
+
 {{ partial "footer.html" . }}
