@@ -7,25 +7,22 @@
 					<div class="title media-heading">
 						{{ .Title }}
 					</div>
-					<p>
-					<div class="smallhead">
-						{{ .Date.Format "2006-01-02" }}
-					</div>
+					<!-- <div class="spacer"></div> -->
 					<div class="smallhead">
 						{{ $author := .Params.author }}
 						{{ range .Site.Pages }}
 							{{ if eq .Params.member_id $author }}
-								<p> Author: {{ .Params.title }} </p>
+								<a class="off" href="{{ .Permalink }}">{{ .Params.title }}</a><p>
 							{{ end }}
 						{{ end }}
+						{{ .Date.Format "2006-01-02" }}
 					</div>
-					<div class="bigspacer"></div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="bigspacer"></div>
+	<div class="spacer"></div>
 
 	<div class="row">
 		<div class="col-md-12">
