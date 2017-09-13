@@ -11,7 +11,7 @@ pdf: 2015-hughey-single-cell.pdf
 supp: 2015-hughey-single-cell-supp.pdf
 doi: 10.1091/mbc.E14-08-1267
 pmid: 25473117
-software: http://archive.simtk.org/livecellnfkb/hughey2014/interactive
+software: /software/live-cell-nfkb
 member_ids: hugheyjj
 software_ids: livecellnfkb
 ---

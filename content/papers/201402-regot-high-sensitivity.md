@@ -11,7 +11,7 @@ pdf: 2014-regot-high-sensitivity.pdf
 supp: 2014-regot-high-sensitivity-supp.zip
 doi: 10.1016/j.cell.2014.04.039
 pmid: 24949979
-software: https://github.com/CovertLab/ktr_model
+software: /software/ktr-model
 member_ids: hugheyjj
 software_ids: ktrmodel
 ---

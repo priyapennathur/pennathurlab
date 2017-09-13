@@ -12,7 +12,7 @@ supp: 2016-hughey-zeitzeiger-supp.zip
 doi: 10.1093/nar/gkw030
 pmid: 26819407
 results: https://dx.doi.org/10.5061/dryad.hn8gp
-software: https://github.com/jakejh/zeitzeiger
+software: /software/zeitzeiger
 member_ids: hugheyjj
 software_ids: [metapredict, zeitzeiger]
 ---

@@ -12,7 +12,7 @@ supp: 2015-hughey-robust-supp.zip
 doi: 10.1093/nar/gkv229
 pmid: 25829177
 results: https://dx.doi.org/10.5281/zenodo.16006
-software: https://github.com/jakejh/metapredict
+software: /software/metapredict
 member_ids: hugheyjj
 software_ids: metapredict
 ---
