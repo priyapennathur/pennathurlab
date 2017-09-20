@@ -9,4 +9,4 @@ The design for this website is based on the lab sites of [Trevor Bedford](http:/
 
 Whereas those sites are built with [Jekyll](https://jekyllrb.com), this site is built with [Hugo](https://gohugo.io) and deployed with [Netlify](https://www.netlify.com). The port from Jekyll to Hugo was done by the outstanding [Taras Kumpanenko](http://outsourcer.in.ua).
 
-The [source code](https://github.com/hugheylab/hugheylab.org) is freely available under the MIT license. If you use the code in your own site, I'd appreciate a link back to [hugheylab.org](https://hugheylab.org).
+The [source code](https://github.com/hugheylab/hugheylab.org) is freely available under the MIT license. If you use the code in your own site, I'd appreciate links back to [hugheylab.org](https://hugheylab.org) and [bedford.io](http://bedford.io).
