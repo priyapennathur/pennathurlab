@@ -3,7 +3,7 @@ title: Jake Hughey
 sort_name: Hughey, Jake
 position: Principal Investigator
 email: jakejhughey@gmail.com
-twitter: 
+twitter: jakejhughey
 github: jakejh
 scholar: 4B-OkFkAAAAJ
 image: jake-hughey.jpg

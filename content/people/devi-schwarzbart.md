@@ -1,7 +1,7 @@
 ---
 title: Devi Schwarzbart
 sort_name: Schwarzbart, Devi
-position: Support staff
+position: Support Staff
 image: devi-schwarzbart.jpg
 ---
 
