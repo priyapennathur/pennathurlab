@@ -15,6 +15,10 @@ The lab has a rich set of collaborators, from experimental biologists to clinica
 
 Candidates at all levels are encouraged to apply. NIH-funded positions are available to start immediately.
 
+## Staff scientists
+
+Please apply through the [VUMC job site](https://vanderbilt.taleo.net/careersection/.vu_cs/jobdetail.ftl?job=1710692&tz=GMT-06%3A00).
+
 ## Postdocs
 
 Strong candidates will likely have either:
