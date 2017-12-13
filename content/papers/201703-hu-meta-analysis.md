@@ -1,7 +1,7 @@
 ---
 date: 2017-06-09
 slug: hu-meta-analysis
-image: 201703-hu-meta-analysis.png
+image: 2017-hu-meta-analysis.png
 title: "Meta-analysis of Cytometry Data Reveals Racial Differences in Immune Cells"
 authors: Zicheng Hu, Chethan Jujjavarapu, Jacob J. Hughey, Sandra Andorf, Pier Federico Gherardini, Matthew H. Spitzer, Patrick Dunn, Cristel G. Thomas, John Campbell, Jeff Wiser, Garry P. Nolan, Sanchita Bhattacharya, Atul J. Butte
 preprint_journal: bioRxiv

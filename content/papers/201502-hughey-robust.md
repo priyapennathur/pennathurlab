@@ -1,7 +1,7 @@
 ---
 date: 2015-01-02
 slug: 2015-hughey-robust
-image: 201502-hughey-robust.png
+image: 2015-hughey-robust.png
 title: Robust meta-analysis of gene expression using the elastic net
 authors: Jacob J. Hughey and Atul J. Butte
 journal: Nucleic Acids Research

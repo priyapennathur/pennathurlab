@@ -1,7 +1,7 @@
 ---
 date: 2010-01-02
 slug: 2010-tay-single-cell
-image: 201002-tay-single-cell.png
+image: 2010-tay-single-cell.png
 title: Single-cell NF-κB dynamics reveal digital activation and analog information processing
 authors: Savaş Tay*, Jacob J. Hughey*, Timothy K. Lee, Tomasz Lipniacki, Stephen R. Quake, Markus W. Covert (*equal contribution)
 journal: Nature

@@ -41,7 +41,7 @@
 			{{ if and (isset $paper "peer_reviewed") (not $paper.peer_reviewed) }}
 			<div class="smallhead">
 			<i class="fa fa-external-link fa-fw"></i>
-			<a class="off" href="https://dx.doi.org/{{ $paper.preprint_doi }}">Preprint</a>
+			<a class="off" href="https://doi.org/{{ $paper.preprint_doi }}">Preprint</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
@@ -89,7 +89,7 @@
 			{{ if $paper.doi }}
 			<div class="smallhead">
 			<i class="fa fa-external-link fa-fw"></i>
-			<a class="off" href="https://dx.doi.org/{{ $paper.doi }}">Journal</a>
+			<a class="off" href="https://doi.org/{{ $paper.doi }}">Journal</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
