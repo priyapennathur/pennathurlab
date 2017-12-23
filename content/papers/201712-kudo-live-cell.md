@@ -10,8 +10,8 @@ short_ref: Kudo et al., Nat Protoc 2018
 journal: Nature Protocols
 year: 2018
 doi: 10.1038/nprot.2017.128
-pdf: 2018-kudo-live-cell.pdf
-supp: 2018-kudo-live-cell-supp.pdf
+pdf: 
+supp: 
 pmid: 29266096
 reviews: 
 results: 
