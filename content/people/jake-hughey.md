@@ -10,7 +10,7 @@ image: jake-hughey.jpg
 member_id: hugheyjj
 ---
 
-I'm an Instructor of Biomedical Informatics in the Vanderbilt University School of Medicine. Despite the title, my primary responsibility is research.
+I'm an Assistant Professor of Biomedical Informatics and Biological Sciences at Vanderbilt.
 
 My goal is to do excellent science, to communicate it clearly, and to help my mentees do the same. That's hard. Fortunately, I've been surrounded by great scientists, communicators, and mentors at every stage of my career. I even have one at home ([pilot](https://faculty.mc.vanderbilt.edu/Faculty/Details/40135)).
 
