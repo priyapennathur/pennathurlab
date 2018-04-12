@@ -11,7 +11,7 @@ year: 2018
 doi: https://doi.org/10.1177/0748730418768116
 pdf: 2018-tackenberg-tau-independent.pdf
 supp: 2018-tackenberg-tau-independent-supp.pdf
-pmid: 
+pmid: 29635963
 reviews: 
 results: https://doi.org/10.6084/m9.figshare.5484916
 software: /software/tipa
