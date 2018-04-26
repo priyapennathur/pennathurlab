@@ -3,7 +3,7 @@ date: 2016-01-01
 slug: 2016-hughey-zeitzeiger
 image: 2016-hughey-zeitzeiger.png
 title: "ZeitZeiger: supervised learning for high-dimensional data from an oscillatory system"
-authors: Jacob J. Hughey, Trevor Hastie, Atul J. Butte
+authors: Jacob J. Hughey, Trevor Hastie, and Atul J. Butte
 journal: Nucleic Acids Research
 year: 2016
 short_ref: Hughey et al., Nucleic Acids Res 2016

@@ -3,7 +3,7 @@ date: 2018-01-31
 slug: shilts-evidence
 image: 2018-shilts-evidence.png
 title: "Evidence for widespread dysregulation of circadian clock progression in human cancer"
-authors: Jarrod Shilts, Guanhua Chen, Jacob J. Hughey
+authors: Jarrod Shilts, Guanhua Chen, and Jacob J. Hughey
 preprint_journal: bioRxiv
 preprint_doi: 10.1101/130765
 short_ref: Shilts et al., PeerJ 2018

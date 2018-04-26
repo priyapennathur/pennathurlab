@@ -3,7 +3,7 @@ date: 2018-04-17
 slug: wu-population
 image: 2018-wu-population.png
 title: "Population level rhythms in human skin: implications for circadian medicine"
-authors: Gang Wu, Marc D. Ruben, Robert E. Schmidt, Lauren J. Francey, David F. Smith, Ron C. Anafi, Jacob J. Hughey, Ryan Tasseff, Joseph D. Sherrill, John E. Oblong, Kevin J. Mills, John B. Hogenesch
+authors: Gang Wu, Marc D. Ruben, Robert E. Schmidt, Lauren J. Francey, David F. Smith, Ron C. Anafi, Jacob J. Hughey, Ryan Tasseff, Joseph D. Sherrill, John E. Oblong, Kevin J. Mills, and John B. Hogenesch
 preprint_journal: bioRxiv
 preprint_doi: 10.1101/301820
 short_ref: Wu et al., bioRxiv

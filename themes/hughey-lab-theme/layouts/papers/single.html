@@ -54,6 +54,14 @@
 			<div class="bigspacer"></div>
 			{{ end }}
 
+			{{ if $paper.request }}
+			<div class="smallhead">
+			<i class="fa fa-file-text-o fa-fw"></i>
+			<a class="off" href="{{ $paper.request }}">Request full text</a>
+			</div>
+			<div class="bigspacer"></div>
+			{{ end }}
+
 			{{ if $paper.supp }}
 			<div class="smallhead">
 			<i class="fa fa-file-o fa-fw"></i>

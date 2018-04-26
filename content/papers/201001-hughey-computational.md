@@ -3,7 +3,7 @@ date: 2010-01-01
 slug: 2010-hughey-computational
 image: 2010-hughey-computational.png
 title: Computational modeling of mammalian signaling networks
-authors: Jacob J. Hughey, Timothy K. Lee, Markus W. Covert
+authors: Jacob J. Hughey, Timothy K. Lee, and Markus W. Covert
 journal: "Wiley Interdisciplinary Reviews: Systems Biology and Medicine"
 year: 2010
 short_ref: Hughey et al., Wiley Interdiscip Rev Syst Biol Med 2010

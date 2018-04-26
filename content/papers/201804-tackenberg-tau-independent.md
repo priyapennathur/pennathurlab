@@ -3,7 +3,7 @@ date: 2018-04-11
 slug: tackenberg-tau-independent
 image: 2018-tackenberg-tau-independent.png
 title: "Tau-independent Phase Analysis: A Novel Method for Accurately Determining Phase Shifts"
-authors: Michael C. Tackenberg, Jeff R. Jones, Terry L. Page, Jacob J. Hughey
+authors: Michael C. Tackenberg, Jeff R. Jones, Terry L. Page, and Jacob J. Hughey
 short_ref: Tackenberg et al., J Biol Rhythms 2018
 peer_reviewed: true
 journal: Journal of Biological Rhythms

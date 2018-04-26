@@ -3,7 +3,7 @@ date: 2017-12-11
 slug: 2017-hughey-self-reported
 image: 2017-hughey-self-reported.png
 title: "Self-reported dietary adherence, disease-specific symptoms, and quality of life are associated with healthcare provider follow-up in celiac disease"
-authors: Jacob J. Hughey, Bonnie K. Ray, Anne R. Lee, Kristin N. Voorhees, Ciaran P. Kelly and Detlef Schuppan
+authors: Jacob J. Hughey, Bonnie K. Ray, Anne R. Lee, Kristin N. Voorhees, Ciaran P. Kelly, and Detlef Schuppan
 preprint_journal: 
 preprint_doi: 
 short_ref: Hughey et al., BMC Gastroenterol 2017
