@@ -6,7 +6,7 @@ email: srhoades10@gmail.com
 twitter: srhoades10
 github: srhoades10
 scholar: LEDd78IAAAAJ
-image: seth-rhoades.png
+image: rhoades-seth.png
 member_id: rhoadessd
 ---
 

@@ -2,7 +2,7 @@
 title: Devi Schwarzbart
 sort_name: Schwarzbart, Devi
 position: Support Staff
-image: devi-schwarzbart.jpg
+image: schwarzbart-devi.jpg
 ---
 
 I'm a sophisticated, enthusiastic, and [highly accomplished](http://www.dogshowscores.com/dogs/DN33239206) Bouvier des Flandres. I'm originally from Wisconsin. Some people say I'm kind of small for a Bouvier, but actually I conform perfectly to the breed standard.

@@ -4,7 +4,7 @@ sort_name: Shilts, Jarrod
 position: Undergraduate Researcher
 email: jarrod.shilts@vanderbilt.edu
 github: JShilts
-image: jarrod-shilts.jpg
+image: shilts-jarrod.jpg
 member_id: shiltsj
 alum: true
 ---
