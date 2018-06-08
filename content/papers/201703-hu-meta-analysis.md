@@ -11,7 +11,7 @@ peer_reviewed: false
 journal: 
 year: 
 doi: 
-software: https://github.com/hzc363/MetaCyto
+software: https://doi.org/doi:10.18129/B9.bioc.MetaCyto
 member_ids: hugheyjj
 software_ids: 
 ---
