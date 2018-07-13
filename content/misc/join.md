@@ -45,4 +45,4 @@ Highly motivated undergraduates should email me a resume and a short description
 
 ## Mascots
 
-Although the lab already has one [highly accomplished mascot](/people/devi-schwarzbart), I'm willing to consider additional outstanding applicants.
+Although the lab already has one [highly accomplished mascot](/people/schwarzbart-devi), I'm willing to consider additional outstanding applicants.
