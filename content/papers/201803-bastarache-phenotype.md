@@ -1,6 +1,6 @@
 ---
 date: 2018-03-16
-slug: bastarache-phenotype
+slug: 2018-bastarache-phenotype
 image: 2018-bastarache-phenotype.png
 title: "Phenotype risk scores identify patients with unrecognized Mendelian disease patterns"
 authors: Lisa Bastarache, Jacob J. Hughey, Scott Hebbring, Joy Marlo, Wanke Zhao, Wanting T. Ho, Sara L. Van Driest, Tracy L. McGregor, Jonathan D. Mosley, Quinn S. Wells, Michael Temple, Andrea H. Ramirez, Robert Carroll, Travis Osterman, Todd Edwards, Douglas Ruderfer, Digna R. Velez Edwards, Rizwan Hamid, Joy Cogan, Andrew Glazer, Wei-Qi Wei, QiPing Feng, Murray Brilliant, Zhizhuang J. Zhao, Nancy J. Cox, Dan M. Roden, and Joshua C. Denny
