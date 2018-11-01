@@ -6,7 +6,7 @@ title: "Pulling the covers in electronic health records for an association study
 authors: Seth D. Rhoades, Lisa Bastarache, Joshua C. Denny, and Jacob J. Hughey
 preprint_journal: bioRxiv
 preprint_doi: 10.1101/341552
-short_ref: Rhoades et al., Chronobiol Int
+short_ref: Rhoades et al., Chronobiol Int 2018
 peer_reviewed: true
 journal: Chronobiology International
 year: 2018
