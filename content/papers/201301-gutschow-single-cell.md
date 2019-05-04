@@ -6,7 +6,7 @@ title: Single-cell and Population NF-κB Dynamic Responses Depend on Lipopolysac
 authors: Miriam V. Gutschow*, Jacob J. Hughey*, Nicholas A. Ruggero, Bryce T. Bajar, Sean D. Valle, and Markus W. Covert (*equal contribution)
 journal: PLOS One
 year: 2013
-short_ref: Gutschow & Hughey et al., PLOS One 2013
+short_ref: Gutschow / Hughey et al., PLOS One 2013
 pdf: 2013-gutschow-single-cell.pdf
 doi: 10.1371/journal.pone.0053222
 pmid: 23301045

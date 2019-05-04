@@ -6,7 +6,7 @@ title: Single-cell variation leads to population invariance in NF-κB signaling 
 authors: Jacob J. Hughey*, Miriam V. Gutschow*, Bryce T. Bajar, and Markus W. Covert (*equal contribution)
 journal: Molecular Biology of the Cell
 year: 2015
-short_ref: Hughey & Gutschow et al., Mol Biol Cell 2015
+short_ref: Hughey / Gutschow et al., Mol Biol Cell 2015
 pdf: 2015-hughey-single-cell.pdf
 supp: 2015-hughey-single-cell-supp.pdf
 doi: 10.1091/mbc.E14-08-1267

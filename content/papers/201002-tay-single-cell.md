@@ -6,7 +6,7 @@ title: Single-cell NF-κB dynamics reveal digital activation and analog informat
 authors: Savaş Tay*, Jacob J. Hughey*, Timothy K. Lee, Tomasz Lipniacki, Stephen R. Quake, and Markus W. Covert (*equal contribution)
 journal: Nature
 year: 2010
-short_ref: Tay & Hughey et al., Nature 2010
+short_ref: Tay / Hughey et al., Nature 2010
 pdf: 2010-tay-single-cell.pdf
 supp: 2010-tay-single-cell-supp.zip
 doi: 10.1038/nature09145
