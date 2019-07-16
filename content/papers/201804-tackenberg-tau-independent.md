@@ -15,7 +15,7 @@ pmid: 29635963
 reviews: 
 results: https://doi.org/10.6084/m9.figshare.5484916
 software: /software/tipa
-member_ids: hugheyjj
+member_ids: [hugheyjj, tackenbergmc]
 software_ids: tipa
 ---
 

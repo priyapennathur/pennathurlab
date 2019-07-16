@@ -1,7 +1,7 @@
 ---
 title: Seth Rhoades
 sort_name: Rhoades, Seth
-position: Postdoctoral Fellow
+position: Postdoctoral Scholar
 email: srhoades10@gmail.com
 twitter: srhoades10
 github: srhoades10

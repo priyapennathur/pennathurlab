@@ -1,7 +1,7 @@
 ---
 title: Darwin Fu
 sort_name: Fu, Darwin
-position: Postdoctoral Fellow
+position: Postdoctoral Scholar
 email: darwinyfu@gmail.com
 twitter: EquationForLife
 github: darwinyfu
@@ -10,7 +10,7 @@ image: fu-darwin.png
 member_id: fudy
 ---
 
-I am a Postdoctoral Fellow in the Hughey Lab and the Department of Biomedical Informatics. I joined the lab in August 2018 after completing my PhD in Chemistry here at Vanderbilt.
+I'm a Postdoctoral Scholar in the Hughey Lab and the Department of Biomedical Informatics. I joined the lab in August 2018 after completing my PhD in Chemistry here at Vanderbilt.
 
 My research interests are in applying computational methods to solving practical research problems. This ranges from a simple correlation with biological activity of drug compounds, to complex machine learning models of patient treatment success. I am also passionate about science outreach and creating easy to understand visualizations. 
 
