@@ -11,10 +11,10 @@ peer_reviewed: true
 journal: eLife
 year: 2019
 doi: 10.7554/eLife.52646
-pdf: 
-supp: 
+pdf: 2019-fu-releasing.pdf
+supp: 2019-fu-releasing-supp.zip
 pmid: 31808742
-reviews: 
+reviews: 2019-fu-releasing-reviews.pdf
 results: https://doi.org/10.6084/m9.figshare.8855795
 software: 
 member_ids: [hugheyjj, fudy]
