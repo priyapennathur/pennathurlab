@@ -12,7 +12,7 @@ journal: Clinical Chemistry
 year: 2019
 doi: 10.1373/clinchem.2019.305409
 pdf: 2019-hughey-discovering.pdf
-supp: 
+supp: 2019-hughey-discovering-supp.zip
 pmid: 31578215
 reviews: 
 results: https://doi.org/10.6084/m9.figshare.8079944
