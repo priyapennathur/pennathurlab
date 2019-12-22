@@ -12,7 +12,7 @@ member_id: hugheyjj
 
 I'm an Assistant Professor of Biomedical Informatics and Biological Sciences at Vanderbilt.
 
-My goal is to do excellent science, to communicate it clearly, and to help my mentees do the same. That's hard. Fortunately, I've been surrounded by great scientists, communicators, and mentors at every stage of my career. I even have one at home ([pilot](https://faculty.mc.vanderbilt.edu/Faculty/Details/40135)).
+My goal is to do excellent science, to communicate it clearly, and to help my mentees do the same. That's hard. Fortunately, I've been surrounded by great scientists, communicators, and mentors at every stage of my career. I even have one at home ([pilot](https://www.linkedin.com/in/jencolby)).
 
 As an undergraduate, I studied Biomedical Engineering and Mathematics. I also did research in the lab of [John Wikswo](http://www.vanderbilt.edu/viibre/wikswo.php), developing microfluidic devices to study signaling dynamics in single immune cells.
 
