@@ -9,9 +9,8 @@ peer_reviewed: true
 journal: Science
 year: 2018
 doi: 10.1126/science.aal4043
-pdf: 
-request: https://www.researchgate.net/publication/323788957_Phenotype_risk_scores_identify_patients_with_unrecognized_Mendelian_disease_patterns
-supp: 
+pdf: 2018-bastarache-phenotype.pdf
+supp: 2018-bastarache-phenotype-supp.pdf
 pmid: 29590070
 results: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001516.v1.p1
 software: https://github.com/labastar/PheRS

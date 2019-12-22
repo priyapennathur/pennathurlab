@@ -11,8 +11,8 @@ peer_reviewed: true
 journal: Journal of the American Medical Informatics Association
 year: 2019
 doi: 10.1093/jamia/ocz179
-pdf: 
-supp: 
+pdf: 2019-bastarache-improving.pdf
+supp: 2019-bastarache-improving-supp.zip
 pmid: 31609419
 reviews: 
 results: 

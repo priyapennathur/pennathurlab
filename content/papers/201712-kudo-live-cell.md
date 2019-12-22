@@ -10,9 +10,8 @@ short_ref: Kudo et al., Nat Protoc 2018
 journal: Nature Protocols
 year: 2018
 doi: 10.1038/nprot.2017.128
-pdf: 
-request: https://www.researchgate.net/publication/321982227_Live-cell_measurements_of_kinase_activity_in_single_cells_using_translocation_reporters
-supp: 
+pdf: 2018-kudo-live-cell.pdf
+supp: 2018-kudo-live-cell-supp.pdf
 pmid: 29266096
 reviews: 
 results: 
