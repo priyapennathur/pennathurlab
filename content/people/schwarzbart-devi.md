@@ -1,7 +1,7 @@
 ---
 title: Devi Schwarzbart
 sort_name: Schwarzbart, Devi
-position: Support Staff
+position: Canine Consultant
 image: schwarzbart-devi.jpg
 ---
 
