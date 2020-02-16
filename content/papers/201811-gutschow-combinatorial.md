@@ -11,7 +11,7 @@ peer_reviewed: true
 journal: Molecular Biology of the Cell
 year: 2018
 doi: 10.1091/mbc.E18-07-0423
-pdf: 
+pdf: 2018-gutschow-combinatorial.pdf
 supp: 
 pmid: 30462580
 reviews: 
