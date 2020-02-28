@@ -1,6 +1,6 @@
 ---
 date: 2019-10-14
-slug: bastarache-improving
+slug: 2019-bastarache-improving
 image: 2019-bastarache-improving.png
 title: "Improving the phenotype risk score as a scalable approach to identifying patients with Mendelian disease"
 authors: Lisa Bastarache, Jacob J. Hughey, Jeffrey A. Goldstein, Julie A. Bastarache, Satya Das, Neil Charles Zaki, Chenjie Zeng, Leigh Anne Tang, Dan M. Roden, and Joshua C. Denny

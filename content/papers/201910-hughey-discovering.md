@@ -1,6 +1,6 @@
 ---
 date: 2019-10-02
-slug: hughey-discovering
+slug: 2019-hughey-discovering
 image: 2019-hughey-discovering.png
 title: "Discovering Cross-Reactivity in Urine Drug Screening Immunoassays through Large-Scale Analysis of Electronic Health Records"
 authors: Jacob J. Hughey and Jennifer M. Colby

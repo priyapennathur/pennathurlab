@@ -1,6 +1,6 @@
 ---
 date: 2019-05-23
-slug: singer-simphony
+slug: 2019-singer-simphony
 image: 2019-singer-simphony.png
 title: "Simphony: simulating large-scale, rhythmic data"
 authors: Jordan M. Singer, Darwin Y. Fu, and Jacob J. Hughey

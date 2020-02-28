@@ -1,6 +1,6 @@
 ---
 date: 2019-11-04
-slug: hughey-cox
+slug: 2019-hughey-cox
 image: 2019-hughey-cox.png
 title: "Cox regression increases power to detect genotype-phenotype associations in genomic studies using the electronic health record"
 authors: Jacob J. Hughey, Seth D. Rhoades, Darwin Y. Fu, Lisa Bastarache, Joshua C. Denny, and Qingxia Chen

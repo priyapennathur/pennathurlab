@@ -1,6 +1,6 @@
 ---
 date: 2018-11-25
-slug: singer-limorhyde
+slug: 2018-singer-limorhyde
 image: 2018-singer-limorhyde.png
 title: "LimoRhyde: a flexible approach for differential analysis of rhythmic transcriptome data"
 authors: Jordan M. Singer and Jacob J. Hughey

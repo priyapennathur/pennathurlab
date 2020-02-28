@@ -1,6 +1,6 @@
 ---
 date: 2019-12-06
-slug: fu-releasing
+slug: 2019-fu-releasing
 image: 2019-fu-releasing.png
 title: "Releasing a preprint is associated with more attention and citations for the peer-reviewed article"
 authors: Darwin Y. Fu and Jacob J. Hughey

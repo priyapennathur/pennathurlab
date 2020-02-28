@@ -1,6 +1,6 @@
 ---
 date: 2018-11-21
-slug: gutschow-combinatorial
+slug: 2018-gutschow-combinatorial
 image: 2018-gutschow-combinatorial.png
 title: "Combinatorial processing of bacterial and host-derived innate immune stimuli at the single-cell level"
 authors: Miriam V. Gutschow, John C. Mason, Keara M. Lane, Inbal Maayan, Jacob J. Hughey, Bryce T. Bajar, Debha N. Amatya, Sean D. Valle, and Markus W. Covert

@@ -1,6 +1,6 @@
 ---
 date: 2018-09-05
-slug: rhoades-pulling
+slug: 2018-rhoades-pulling
 image: 2018-rhoades-pulling.png
 title: "Pulling the covers in electronic health records for an association study with self-reported sleep behaviors"
 authors: Seth D. Rhoades, Lisa Bastarache, Joshua C. Denny, and Jacob J. Hughey

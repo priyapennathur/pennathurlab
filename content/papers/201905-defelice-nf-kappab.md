@@ -1,6 +1,6 @@
 ---
 date: 2019-04-30
-slug: defelice-nf-kappab
+slug: 2019-defelice-nf-kappab
 image: 2019-defelice-nf-kappab.png
 title: "NF-κB signaling dynamics is controlled by a dose-sensing autoregulatory loop"
 authors: Mialy M. DeFelice*, Helen R. Clark*, Jacob J. Hughey*, Inbal Maayan, Takamasa Kudo, Miriam V. Gutschow, Markus W. Covert, and Sergi Regot (*equal contribution)

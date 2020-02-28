@@ -1,6 +1,6 @@
 ---
 date: 2020-01-15
-slug: tackenberg-distinct
+slug: 2020-tackenberg-distinct
 image: 2020-tackenberg-distinct.png
 title: "Distinct components of photoperiodic light are differentially encoded by the mammalian circadian clock"
 authors: Michael C. Tackenberg, Jacob J. Hughey, and Douglas G. McMahon
