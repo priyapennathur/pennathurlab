@@ -65,7 +65,11 @@
 			{{ if $paper.supp }}
 			<div class="smallhead">
 			<i class="fa fa-file-o fa-fw"></i>
+			{{ if hasPrefix $paper.supp "http" }}
+			<a class="off" href="{{ $paper.supp }}">Supplement</a>
+			{{ else }}
 			<a class="off" href="/assets/papers/{{ $paper.supp }}">Supplement</a>
+			{{ end }}
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
@@ -89,7 +93,11 @@
 			{{ if $paper.reviews }}
 			<div class="smallhead">
 			<i class="fa fa-comments-o fa-fw"></i>
+			{{ if hasPrefix $paper.reviews "http" }}
+			<a class="off" href="{{ $paper.reviews }}">Peer reviews</a>
+			{{ else }}
 			<a class="off" href="/assets/papers/{{ $paper.reviews }}">Peer reviews</a>
+			{{ end }}
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
