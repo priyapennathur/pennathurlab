@@ -6,6 +6,7 @@ email: james.baker@vanderbilt.edu
 github: jtb324
 image: baker-james.jpg
 member_id: bakerjt
+alum: true
 ---
 
 I am a first-year graduate student in the Quantitative and Chemical Biology program at Vanderbilt. I received my B.S. in chemistry and biochemistry from NC State in 2019. I am interested in bioinformatics and using computational methods to make inferences from data.
