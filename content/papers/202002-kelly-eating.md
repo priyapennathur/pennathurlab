@@ -6,7 +6,7 @@ title: "Eating breakfast and avoiding the evening snack sustains lipid oxidation
 authors: Kevin P. Kelly, Owen P. McGuinness, Maciej Buchowski, Jacob J. Hughey, Heidi Chen, James Powers, Terry Page, and Carl H. Johnson
 preprint_journal: bioRxiv
 preprint_doi: 10.1101/2020.01.29.923417
-short_ref: Kelly et al., PLOS Biology
+short_ref: Kelly et al., PLOS Biology 2020
 peer_reviewed: true
 journal: PLOS Biology
 year: 2020
