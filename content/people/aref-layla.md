@@ -5,7 +5,7 @@ position: Rotation Student
 email: larefnezhad@gmail.com
 github: arefnel
 image: aref-layla.jpg
-member_id: arefnezhadl
+member_id: arefl
 alum: true
 ---
 
