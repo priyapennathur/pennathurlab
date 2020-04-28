@@ -1,7 +1,7 @@
 ---
 title: Layla Aref
 sort_name: Aref, Layla
-position: Rotation Student
+position: PhD Student
 email: larefnezhad@gmail.com
 github: arefnel
 image: aref-layla.jpg
