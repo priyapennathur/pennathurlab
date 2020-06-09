@@ -4,6 +4,7 @@ slug: metapredict
 title: MetaPredict
 software_id: metapredict
 description: Meta-analysis of genome-wide gene expression
+site: https://metapredict.hugheylab.org
 source: https://github.com/hugheylab/metapredict
 docker: https://hub.docker.com/r/hugheylab/hugheyverse/
 ---

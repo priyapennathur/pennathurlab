@@ -4,6 +4,7 @@ slug: simphony
 title: Simphony
 software_id: simphony
 description: Simulating large-scale, rhythmic data
+site: https://simphony.hugheylab.org
 source: https://github.com/hugheylab/simphony
 docker: https://hub.docker.com/r/hugheylab/hugheyverse/
 ---

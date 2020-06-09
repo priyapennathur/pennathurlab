@@ -4,6 +4,7 @@ slug: limorhyde
 title: LimoRhyde
 software_id: limorhyde
 description: Differential analysis of rhythmic transcriptome data
+site: https://limorhyde.hugheylab.org
 source: https://github.com/hugheylab/limorhyde
 docker: https://hub.docker.com/r/hugheylab/hugheyverse/
 ---

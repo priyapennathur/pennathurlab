@@ -4,6 +4,7 @@ slug: zeitzeiger
 title: ZeitZeiger
 software_id: zeitzeiger
 description: Supervised learning and quantification of rhythmicity for high-dimensional, periodic data
+site: https://zeitzeiger.hugheylab.org
 source: https://github.com/hugheylab/zeitzeiger
 docker: https://hub.docker.com/r/hugheylab/hugheyverse/
 ---
