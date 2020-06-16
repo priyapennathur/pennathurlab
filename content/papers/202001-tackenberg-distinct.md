@@ -10,7 +10,7 @@ short_ref: Tackenberg et al., J Biol Rhythms 2020
 peer_reviewed: true
 journal: Journal of Biological Rhythms
 year: 2020
-doi: https://doi.org/10.1177/0748730420929217
+doi: 10.1177/0748730420929217
 pdf: 2020-tackenberg-distinct.pdf
 supp: 2020-tackenberg-distinct-supp.zip
 pmid: 32527181
