@@ -15,7 +15,7 @@ pdf: 2020-tackenberg-distinct.pdf
 supp: 2020-tackenberg-distinct-supp.zip
 pmid: 32527181
 reviews:
-results: http://doi.org/10.6084/m9.figshare.11513892
+results: https://doi.org/10.6084/m9.figshare.11513892
 software: 
 member_ids: [tackenbergmc, hugheyjj]
 software_ids: 
