@@ -1,9 +1,9 @@
 ---
 date: 2017-01-01
 slug: deltaccd
-title: DeltaCCD
+title: deltaccd
 software_id: deltaccd
-description: Inferring circadian clock progression using clock gene co-expression
+description: Infer circadian clock progression using clock gene co-expression
 site: https://deltaccd.hugheylab.org
 source: https://github.com/hugheylab/deltaccd
 docker: https://hub.docker.com/r/hugheylab/hugheyverse/
