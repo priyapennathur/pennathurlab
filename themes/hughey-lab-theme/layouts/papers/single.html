@@ -41,7 +41,7 @@
 			{{ if and (isset $paper "peer_reviewed") (not $paper.peer_reviewed) }}
 			<div class="smallhead">
 			<i class="fa fa-external-link fa-fw"></i>
-			<a class="off" href="https://doi.org/{{ $paper.preprint_doi }}">Preprint</a>
+			<a class="off" target= "_blank" href="https://doi.org/{{ $paper.preprint_doi }}">Preprint</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
@@ -50,14 +50,6 @@
 			<div class="smallhead">
 			<i class="fa fa-file-text-o fa-fw"></i>
 			<a class="off" href="/assets/papers/{{ $paper.pdf }}">Full text</a>
-			</div>
-			<div class="bigspacer"></div>
-			{{ end }}
-
-			{{ if $paper.request }}
-			<div class="smallhead">
-			<i class="fa fa-file-text-o fa-fw"></i>
-			<a class="off" href="{{ $paper.request }}">Request full text</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
@@ -77,7 +69,7 @@
 			{{ if $paper.results }}
 			<div class="smallhead">
 			<i class="fa fa-bar-chart-o fa-fw"></i>
-			<a class="off" href="{{ $paper.results }}">Reproducible results</a>
+			<a class="off" target= "_blank" href="{{ $paper.results }}">Reproducible results</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
@@ -105,7 +97,7 @@
 			{{ if $paper.doi }}
 			<div class="smallhead">
 			<i class="fa fa-external-link fa-fw"></i>
-			<a class="off" href="https://doi.org/{{ $paper.doi }}">Journal</a>
+			<a class="off" target= "_blank" href="https://doi.org/{{ $paper.doi }}">Journal</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
@@ -113,7 +105,7 @@
 			{{ if $paper.pmid }}
 			<div class="smallhead">
 			<i class="fa fa-external-link fa-fw"></i>
-			<a class="off" href="https://pubmed.ncbi.nlm.nih.gov/{{ $paper.pmid }}">PubMed</a>
+			<a class="off" target= "_blank" href="https://pubmed.ncbi.nlm.nih.gov/{{ $paper.pmid }}">PubMed</a>
 			</div>
 			<div class="bigspacer"></div>
 			{{ end }}
