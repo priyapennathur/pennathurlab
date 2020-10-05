@@ -11,6 +11,7 @@ pdf: 2016-hughey-zeitzeiger.pdf
 supp: 2016-hughey-zeitzeiger-supp.zip
 doi: 10.1093/nar/gkw030
 pmid: 26819407
+reviews: 2016-hughey-zeitzeiger-reviews.pdf
 results: https://doi.org/10.5061/dryad.hn8gp
 software: /software/zeitzeiger
 member_ids: hugheyjj
