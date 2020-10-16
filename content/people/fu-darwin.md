@@ -8,6 +8,7 @@ github: darwinyfu
 scholar: 40qJBXYAAAAJ
 image: fu-darwin.png
 member_id: fudy
+alum: true
 ---
 
 I'm a Postdoctoral Scholar in the Hughey Lab and the Department of Biomedical Informatics. I joined the lab in August 2018 after completing my PhD in Chemistry here at Vanderbilt.
