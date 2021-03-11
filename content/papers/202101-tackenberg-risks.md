@@ -11,10 +11,10 @@ peer_reviewed: true
 journal: PLOS Computational Biology
 year: 2021
 doi: 10.1371/journal.pcbi.1008567
-pdf:
-supp:
+pdf: 2021-tackenberg-risks.pdf
+supp: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008567#sec012
 pmid: 33406069
-reviews:
+reviews: https://journals.plos.org/ploscompbiol/article/peerReview?id=10.1371/journal.pcbi.1008567
 results: https://doi.org/10.6084/m9.figshare.12805082
 software: /software/spectr
 member_ids: [tackenbergmc, hugheyjj]

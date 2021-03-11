@@ -14,7 +14,7 @@ doi: 10.7717/peerj.4327
 pdf: 2018-shilts-evidence.pdf
 supp: 2018-shilts-evidence-supp.zip
 pmid: 29404219
-reviews: 2018-shilts-evidence-reviews.pdf
+reviews: https://peerj.com/articles/4327/reviews/
 results: https://doi.org/10.6084/m9.figshare.4906745
 software: /software/deltaccd/
 member_ids: [shiltsj, hugheyjj]

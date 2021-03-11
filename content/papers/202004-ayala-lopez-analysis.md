@@ -11,7 +11,7 @@ peer_reviewed: true
 journal: Journal of Analytical Toxicology
 year: 2020
 doi: 10.1093/jat/bkaa179
-pdf:
+pdf: 2020-ayala-lopez-analysis.pdf
 supp: 2020-ayala-lopez-analysis-supp.zip
 pmid: 33216907
 reviews:

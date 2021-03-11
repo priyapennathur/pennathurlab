@@ -14,7 +14,7 @@ doi: 10.7717/peerj.6985
 pdf: 2019-singer-simphony.pdf
 supp: 2019-singer-simphony-supp.zip
 pmid: 31198637
-reviews: 2019-singer-simphony-reviews.pdf
+reviews: https://peerj.com/articles/6985/reviews/
 results: https://doi.org/10.6084/m9.figshare.7441355
 software: /software/simphony/
 member_ids: [singerjm, fudy, hugheyjj]
