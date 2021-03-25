@@ -13,7 +13,7 @@ year: 2021
 doi: 10.7717/peerj.11071
 pdf: 2021-schoenbachler-pmparser.pdf
 supp: 2021-schoenbachler-pmparser-supp.zip
-pmid:
+pmid: 33763309
 reviews: https://peerj.com/articles/11071/reviews/
 results: https://doi.org/10.5281/zenodo.4004909
 software: /software/pmparser
