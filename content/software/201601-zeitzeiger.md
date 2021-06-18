@@ -9,4 +9,4 @@ source: https://github.com/hugheylab/zeitzeiger
 docker: https://hub.docker.com/r/hugheylab/hugheyverse/
 ---
 
-zeitzeiger is a method for regularized supervised learning on high-dimensional data from an oscillatory system. zeitzeiger can quantify rhythmic behavior, make accurate predictions, identify major patterns and important features, and detect when the oscillator is perturbed.
+zeitzeiger performs regularized supervised learning on high-dimensional data from an oscillatory system. zeitzeiger can quantify rhythmic behavior, make accurate predictions, identify major patterns and important features, and detect when the oscillator is perturbed.

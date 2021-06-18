@@ -9,4 +9,4 @@ source: https://github.com/hugheylab/metapredict
 docker: https://hub.docker.com/r/hugheylab/hugheyverse/
 ---
 
-metapredict is a method for performing meta-analysis of genome-wide gene expression using the elastic net. Even if you don't plan to run the elastic net on your data, metapredict makes it straightforward to normalize your microarray data and to map probes from various platforms to Entrez Gene IDs.
+metapredict performs meta-analysis of genome-wide gene expression using the elastic net. Even if you don't plan to run the elastic net on your data, metapredict makes it straightforward to normalize your microarray data and to map probes from various platforms to Entrez Gene IDs.
