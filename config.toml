@@ -1,7 +1,7 @@
 baseURL = "https://pennathurlab.netlify.app/"
 languageCode = "en-us"
-title = "Pennathur Lab"
-name = "Pennathur Lab"
+title = "Priya Pennathur"
+name = "Priya Pennathur"
 pluralizelisttitles = false
 theme = "hughey-lab-theme"
 
