@@ -1,7 +1,7 @@
-baseURL = "https://hugheylab.org/"
+baseURL = "https://pennathurlab.netlify.app/"
 languageCode = "en-us"
-title = "Hughey Lab"
-name = "Hughey Lab"
+title = "Pennathur Lab"
+name = "Pennathur Lab"
 pluralizelisttitles = false
 theme = "hughey-lab-theme"
 
