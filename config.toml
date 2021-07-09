@@ -9,20 +9,20 @@ theme = "hughey-lab-theme"
     name = "Papers"
     identifier = "papers"
     url = "/papers/"
-    weight = 4
+    weight = 2
 [[menu.main]]
-    name = "Software"
-    identifier = "software"
-    url = "/software/"
-    weight = 3
+    name = "Research"
+    identifier = "research"
+    url = "/research/"
+    weight = 1
 [[menu.main]]
     name = "People"
     identifier = "people"
     url = "/people/"
-    weight = 2
+    weight = 3
 [[menu.main]]
     name = "News"
     identifier = "news"
     url = "/news/"
-    weight = 1
+    weight = 4
 

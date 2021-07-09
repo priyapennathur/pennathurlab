@@ -3,7 +3,7 @@ title: Pennathur Lab / Join
 url: /join/
 ---
 
-# Join the lab
+<!--# Join the lab
 
 I'm currently starting my own lab and looking for exceptional individuals to be part of the team. More than any particular skills, I'm interested in people who are hard-working, creative, and eager to learn. Successful applicants will have the opportunity to shape the research directions and the culture of the lab.
 
@@ -45,4 +45,4 @@ Highly motivated undergraduates should email me a resume and a short description
 
 ## Mascots
 
-Although the lab already has one [highly accomplished mascot](/people/schwarzbart-devi), I'm willing to consider additional outstanding applicants.
+Although the lab already has one [highly accomplished mascot](/people/schwarzbart-devi), I'm willing to consider additional outstanding applicants.-->

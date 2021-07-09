@@ -1,3 +1,3 @@
 ---
-title: Pennathur Lab / Software
+title: Pennathur Lab / Research
 ---
