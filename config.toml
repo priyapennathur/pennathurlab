@@ -6,15 +6,15 @@ pluralizelisttitles = false
 theme = "hughey-lab-theme"
 
 [[menu.main]]
+    name = "Research"
+    identifier = "research"
+    url = "/research/"
+    weight = 1
+[[menu.main]]
     name = "Papers"
     identifier = "papers"
     url = "/papers/"
     weight = 2
-[[menu.main]]
-    name = "Research"
-    identifier = "software"
-    url = "/research/"
-    weight = 1
 [[menu.main]]
     name = "People"
     identifier = "people"
