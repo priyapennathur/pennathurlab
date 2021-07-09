@@ -1,3 +1,3 @@
 ---
-title: Hughey Lab / News
+title: Pennathur Lab / News
 ---

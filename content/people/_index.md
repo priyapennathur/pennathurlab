@@ -1,3 +1,3 @@
 ---
-title: Hughey Lab / People
+title: Pennathur Lab / People
 ---

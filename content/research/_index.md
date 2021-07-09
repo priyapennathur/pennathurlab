@@ -1,5 +1,5 @@
 ---
-title: Hughey Lab / Research
+title: Pennathur Lab / Research
 ---
 
 Research page content

@@ -1,5 +1,5 @@
 ---
-title: Hughey Lab / Join
+title: Pennathur Lab / Join
 url: /join/
 ---
 

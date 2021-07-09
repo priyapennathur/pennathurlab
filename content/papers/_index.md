@@ -1,3 +1,3 @@
 ---
-title: Hughey Lab / Papers
+title: Pennathur Lab / Papers
 ---

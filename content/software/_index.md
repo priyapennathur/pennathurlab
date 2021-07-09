@@ -1,3 +1,3 @@
 ---
-title: Hughey Lab / Software
+title: Pennathur Lab / Software
 ---
