@@ -11,9 +11,9 @@ theme = "hughey-lab-theme"
     url = "/papers/"
     weight = 2
 [[menu.main]]
-    name = "Research"
+    name = "Software"
     identifier = "software"
-    url = "/research/"
+    url = "/software/"
     weight = 1
 [[menu.main]]
     name = "People"
