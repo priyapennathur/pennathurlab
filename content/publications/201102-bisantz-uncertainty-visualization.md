@@ -1,17 +1,17 @@
 ---
-date: 2014-01-01
+date: 2011-01-02
 slug: 2014-byrd-microfluidic
 image: 2014-byrd-microfluidic.png
-title: The microfluidic multi-trap nanophysiometer for hematologic cancer cell characterization reveals temporal sensitivity of the calcein-AM efflux assay
-authors: Thomas F. Byrd IV, Loi T. Hoang, Eric G. Kim, Matthew E. Pfister, Erik M. Werner, Stephen E. Arndt, Jeffrey W. Chamberlain, Jacob J. Hughey, Bao A. Nguyen, Erik J. Schneibel, Laura L. Wertz, Jonathan S. Whitfield, John P. Wikswo, and Kevin T. Seale
-journal: Scientific Reports
-year: 2014
-short_ref: Byrd et al., Sci Rep 2014
-pdf: 2014-byrd-microfluidic.pdf
-supp: 2014-byrd-microfluidic-supp.pdf
-doi: 10.1038/srep05117
-pmid: 24873950
-member_ids: hugheyjj
+title: Comparing Uncertainty Visualizations for A Dynamic Decision-making Task.
+authors: Bisantz, A. M., Cao, D., Jenkins, M., Pennathur, P. R., Farry, M., Roth, E., Potter, S. S., Pfautz, J. 
+journal: Journal of Cognitive Engineering and Decision Making
+year: 2011
+short_ref: 
+pdf: 
+supp: 
+doi: 
+pmid: 
+member_ids: 
 ---
 
 # Abstract

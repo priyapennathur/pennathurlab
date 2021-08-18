@@ -1,3 +1,3 @@
 ---
-title: Pennathur Lab / Research
+title: Priya Pennathur / Research
 ---

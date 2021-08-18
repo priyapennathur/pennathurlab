@@ -1,3 +1,0 @@
----
-title: Pennathur Lab / Papers
----

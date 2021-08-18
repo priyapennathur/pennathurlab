@@ -1,5 +1,5 @@
 ---
-title: Pennathur Lab / Join
+title: Priya Pennathur / Join
 url: /join/
 ---
 

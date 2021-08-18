@@ -1,5 +1,5 @@
 ---
-title: Pennathur Lab / About
+title: Priya Pennathur / About
 url: /about/
 ---
 

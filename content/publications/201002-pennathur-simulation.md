@@ -2,16 +2,16 @@
 date: 2010-01-02
 slug: 2010-tay-single-cell
 image: 2010-tay-single-cell.png
-title: Single-cell NF-κB dynamics reveal digital activation and analog information processing
-authors: Savaş Tay*, Jacob J. Hughey*, Timothy K. Lee, Tomasz Lipniacki, Stephen R. Quake, and Markus W. Covert (*equal contribution)
-journal: Nature
+title: Development of A Simulation Environment To Study Emergency Department Information Technology
+authors: Pennathur, P. R., Cao, D., Sui, Z., Lin, L., Bisantz, A. M., Fairbanks, R. J., Guarrera, T. K., Brown, J. L., Perry, S. J., Wears, R. L.
+journal: Simulation In Healthcare
 year: 2010
-short_ref: Tay / Hughey et al., Nature 2010
-pdf: 2010-tay-single-cell.pdf
-supp: 2010-tay-single-cell-supp.zip
-doi: 10.1038/nature09145
-pmid: 20581820
-member_ids: hugheyjj
+short_ref: 
+pdf: 
+supp: 
+doi: 
+pmid: 
+member_ids: 
 ---
 
 # Abstract

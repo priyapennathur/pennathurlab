@@ -2,15 +2,15 @@
 date: 2010-01-01
 slug: 2010-hughey-computational
 image: 2010-hughey-computational.png
-title: Computational modeling of mammalian signaling networks
-authors: Jacob J. Hughey, Timothy K. Lee, and Markus W. Covert
-journal: "Wiley Interdisciplinary Reviews: Systems Biology and Medicine"
+title: Emergency Department Status Boards - A Case Study In Information Systems Transition
+authors: Bisantz, A. M., Pennathur, P. R., Guarrera, T. K., Fairbanks, R. J., Perry, S. J., Zwemer, F., Wears, R. L.
+journal: "Journal of Cognitive Engineering and Decision Making"
 year: 2010
-short_ref: Hughey et al., Wiley Interdiscip Rev Syst Biol Med 2010
-pdf: 2010-hughey-computational.pdf
-doi: 10.1002/wsbm.52
-pmid: 20836022
-member_ids: hugheyjj
+short_ref: 
+pdf: 
+doi: 
+pmid: 
+member_ids: 
 ---
 
 # Abstract

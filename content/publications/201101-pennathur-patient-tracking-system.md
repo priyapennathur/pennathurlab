@@ -1,16 +1,16 @@
 ---
-date: 2013-01-01
+date: 2011-01-01
 slug: 2013-gutschow-single-cell
 image: 2013-gutschow-single-cell.png
-title: Single-cell and Population NF-κB Dynamic Responses Depend on Lipopolysaccharide Preparation
-authors: Miriam V. Gutschow*, Jacob J. Hughey*, Nicholas A. Ruggero, Bryce T. Bajar, Sean D. Valle, and Markus W. Covert (*equal contribution)
-journal: PLOS One
-year: 2013
-short_ref: Gutschow / Hughey et al., PLOS One 2013
-pdf: 2013-gutschow-single-cell.pdf
-doi: 10.1371/journal.pone.0053222
-pmid: 23301045
-member_ids: hugheyjj
+title: Emergency Department Patient-Tracking System Evaluation.
+authors: Pennathur, P. R., Cao, D., Bisantz, A. M., Lin, L., Fairbanks, R. J., Wears, R. L., Perry, S. J., Guarrera, T. K., Brown, J. L., Sui, Z.
+journal: International Journal of Industrial Ergonomics
+year: 2011
+short_ref: 
+pdf: 
+doi: 
+pmid: 
+member_ids: 
 ---
 
 # Abstract

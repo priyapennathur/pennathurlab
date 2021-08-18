@@ -1,3 +1,3 @@
 ---
-title: Pennathur Lab / News
+title: Priya Pennathur / News
 ---

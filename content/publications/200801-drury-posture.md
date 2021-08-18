@@ -2,15 +2,15 @@
 date: 2008-01-01
 slug: 2008-faley-microfluidic
 image: 2008-faley-microfluidic.png
-title: Microfluidic platform for real-time signaling analysis of multiple single T cells in parallel
-authors: Shannon Faley, Kevin Seale, Jacob Hughey, David K. Schaffer, Scott VanCompernolle, Brett McKinney, Franz Baudenbacher, Derya Unutmaz, and John P. Wikswo
-journal: Lab on a Chip
+title: Posture and Performance - Sitting Vs. Standing for Security Screening.
+authors: Drury, C. G., Hsiao, Y. L., Joseph, C., Joshi, S., Lapp, J., Pennathur, P. R.
+journal: Ergonomics
 year: 2008
-short_ref: Faley et al., Lab Chip 2008
-pdf: 2008-faley-microfluidic.pdf
-doi: 10.1039/b719799c
-pmid: 18813394
-member_ids: hugheyjj
+short_ref: 
+pdf: 
+doi: 
+pmid: 
+member_ids: 
 ---
 
 # Abstract

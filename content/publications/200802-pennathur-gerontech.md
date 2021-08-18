@@ -1,17 +1,17 @@
 ---
-date: 2009-01-01
+date: 2008-01-02
 slug: 2009-lee-noisy
 image: 2009-lee-noisy.png
-title: A Noisy Paracrine Signal Determines the Cellular NF-κB Response to Lipopolysaccharide
-authors: Timothy K. Lee, Elissa M. Denny, Jayodita C. Sanghvi, Jahlionais E. Gaston, Nathaniel D. Maynard, Jacob J. Hughey, and Markus W. Covert
-journal: Science Signaling
-year: 2009
-short_ref: Lee et al., Sci Signal 2009
+title: Perceived Technology Needs Among Older Mexican Americans
+authors: Pennathur, P. R., Contreras, L., Dowling, W.
+journal: Gerontechnology
+year: 2008
+short_ref: 
 pdf: 2009-lee-noisy.pdf
-supp: 2009-lee-noisy-supp.zip
-doi: 10.1126/scisignal.2000599
-pmid: 19843957
-member_ids: hugheyjj
+supp: 
+doi: 
+pmid: 
+member_ids: 
 ---
 
 # Abstract
