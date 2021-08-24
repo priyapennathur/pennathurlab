@@ -1,10 +1,7 @@
 
 ---
 title: Priya Pennathur / Papers
-
 ---
-
-
 
 ### A. Peer-Reviewed Journal Publications
 
