@@ -16,14 +16,19 @@ theme = "hughey-lab-theme"
     url = "/papers/"
     weight = 2
 
-
-[[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    url = "/blog/"
-    weight = 3
 [[menu.main]]
     name = "Teaching"
     identifier = "teaching"
     url = "/teaching/"
+    weight = 3
+[[menu.main]]
+    name = "News"
+    identifier = "news"
+    url = "/news/"
     weight = 4
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog/"
+    weight = 5
+
