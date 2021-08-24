@@ -15,7 +15,6 @@ theme = "hughey-lab-theme"
     identifier = "papers"
     url = "/papers/"
     weight = 2
-
 [[menu.main]]
     name = "Teaching"
     identifier = "teaching"
