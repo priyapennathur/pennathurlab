@@ -1,7 +1,5 @@
 ---
-
-title: Papers
-url: /papers/
+title: Publications
 ---
 
 ### A. Peer-Reviewed Journal Publications
