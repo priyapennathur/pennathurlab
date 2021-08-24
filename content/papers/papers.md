@@ -1,3 +1,8 @@
+---
+title: Priya Pennathur / Papers
+url: /papers/
+---
+
 
 
 ### A. Peer-Reviewed Journal Publications

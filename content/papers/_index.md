@@ -1,3 +1,0 @@
----
-title: Priya Pennathur / Papers
----
