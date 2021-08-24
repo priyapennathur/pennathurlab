@@ -1,10 +1,8 @@
----
-layout: page
-title: Research
-permalink: /research/
----
 
-## Publications
+---
+title: Priya Pennathur / Papers
+
+---
 
 
 
