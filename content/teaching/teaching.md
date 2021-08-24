@@ -4,10 +4,10 @@ url: /teaching/
 ---
 
 
-**New Courses planned for 2022**
+###New Courses planned for 2022
 1. Usability Engineering and User Experience
 
-**Courses I have taught since 2012:**
+###Courses I have taught since 2012
 
 1. Human Factors (Undergraduate)
 
@@ -17,7 +17,7 @@ url: /teaching/
 
 4. Human Factors in Healthcare Systems (Graduate)
 
-**Seminars I have coordinated:**
+###Seminars I have coordinated
 
 1. Professional Seminar for Industrial Engineering (Undergraduate)
 
