@@ -1,9 +1,4 @@
 
----
-title: Priya Pennathur / Papers
-url: /papers/
----
-
 ### A. Peer-Reviewed Journal Publications
 
 2020. Pennathur, P.R. A Theoretical Framework for Understanding Creator-Consumer Information Interaction Behaviors in Healthcare Documentation Systems. **Applied Ergonomics Special Issue on Advancing Theory and Methods in Human Factors/Ergonomics for Health and Healthcare: A Tribute to Professor Ben-Tzion (Bentzi) Karsh, Vol 84, 2020**, Guest Editors: Holden, R.J., Valdez, R., Rivera, A.J.
