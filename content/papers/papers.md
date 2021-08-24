@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Papers
 ---
 
 ### A. Peer-Reviewed Journal Publications
