@@ -26,3 +26,8 @@ theme = "hughey-lab-theme"
     identifier = "blog"
     url = "/blog/"
     weight = 4
+[[menu.main]]
+    name = "Teaching"
+    identifier = "teaching"
+    url = "/teaching/"
+    weight = 5
